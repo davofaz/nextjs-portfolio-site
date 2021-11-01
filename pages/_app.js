@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css'
+import Footer from '../components/Footer';
 import Navigation from "../components/Navigation";
 
 function MyApp({ Component, pageProps }) {
@@ -6,6 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navigation/>  
       <Component {...pageProps} />
+      <Footer/>
     </>
   )
 }
