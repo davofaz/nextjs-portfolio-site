@@ -9,7 +9,7 @@ const Footer = () => {
                     <p>Built with Next.js, Tailwind and Vercel</p>
                     <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
                         <a
-                            href="#"
+                            href="https://twitter.com/davo0o"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
@@ -17,7 +17,7 @@ const Footer = () => {
                             Twitter
                         </a>
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/david-fazaldin-26b66731/"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
@@ -25,7 +25,7 @@ const Footer = () => {
                             LinkedIn
                         </a>
                         <a
-                            href="#"
+                            href="https://github.com/davofaz"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
@@ -33,14 +33,22 @@ const Footer = () => {
                             GitHub
                         </a>
                         <a
-                            href="#"
+                            href="https://www.instagram.com/fazaa_nft/"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Medium
+                            IG Art
                         </a>
                         <a
+                            href="https://www.instagram.com/davofaz"
+                            className={"transition-colors hover:text-yellow-500"}
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            IG Personal
+                        </a>
+                        {/*<a
                             href="#"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
@@ -55,7 +63,7 @@ const Footer = () => {
                             rel="noreferrer"
                         >
                             Hashnode
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </div>
