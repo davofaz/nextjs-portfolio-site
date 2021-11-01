@@ -1,6 +1,7 @@
 
 import Link from "next/link"
 import React from "react"
+import ThemeSwitch from '../components/ThemeSwitch'
 
 const Navigation = () => {
     return (
@@ -13,6 +14,7 @@ const Navigation = () => {
                         David Fazaldin
                     </a>
                 </Link>
+                <ThemeSwitch/>
             </div>
         </div>
     )
