@@ -12,9 +12,9 @@ const About = () => {
                     </h1>
                     <div className="mt-6 text-gray-800 dark:text-white">
                         <p className="mb-4">
-                            I'm David, I have worked in IT, web design/development and Video Streaming for what feels like ages.</p>
+                            I'm David, I have worked in IT, Web Design/Development and Video Streaming for what feels like ages.</p>
                         <p className="mb-4">I'm currently freelancing in UX/UI and also learning front end development on the side - mainly React based projects.</p>
-                        <p className="mb-4">I love working alone or in teams and use Figma, Jira, Git, Photoshop, Visual Studio and looking for contracts where my design thinking skills can be put to use. </p> 
+                        <p className="mb-4">I love working alone or in teams and use Figma, Jira, Git, Photoshop, Visual Studio and looking for contracts where my design thinking skills can be put to use!</p> 
                                               
                         
                         <p className="mb-4 font-bold"><a href="mailto:dfazaldin@gmail.com">If you need a website and don't know where to start reach out to me.</a></p>
