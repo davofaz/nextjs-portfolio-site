@@ -12,12 +12,12 @@ const About = () => {
                     </h1>
                     <div className="mt-6 text-gray-800 dark:text-white">
                         <p className="mb-4">
-                            I'm David, I have worked in IT, Web Design/Development and Video Streaming for what feels like ages.</p>
-                        <p className="mb-4">I'm currently freelancing in UX/UI and also learning front end development on the side - mainly React based projects.</p>
+                            I'm David, a designer based in London in the UK. After my foundation year at Chelsea Art School I soon realised that design would play a key role in my life and went onto focus on Graphic Design and Advertising. Some how I got involved in web design without even having a clue about code but went on to build many websites for a medium sized Charity and kept them at the forefront of tech. Provided fast reliable websites and infrustructure, built online communities via forums and later social media, live web streaming way before Youtube was a thing, e-commerce and donations.</p>
+                        <p className="mb-4">I have left that all behind and am currently freelancing full time in UX/UI and also learning front end development on the side - mainly React based projects.</p>
                         <p className="mb-4">I love working alone or in teams and use Figma, Jira, Git, Photoshop, Visual Studio and looking for contracts where my design thinking skills can be put to use!</p> 
                                               
                         
-                        <p className="mb-4 font-bold"><a href="mailto:dfazaldin@gmail.com">If you need a website and don't know where to start reach out to me.</a></p>
+                        
                     </div>
                 </div>
                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">
