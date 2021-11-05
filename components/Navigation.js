@@ -2,6 +2,7 @@
 import Link from "next/link"
 import React from "react"
 import ThemeSwitch from '../components/ThemeSwitch'
+import Image from 'next/image'
 
 const Navigation = () => {
     return (
@@ -11,7 +12,11 @@ const Navigation = () => {
                     <a
                         className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
                     >
-                        David Fazaldin
+                        <div className="flex"><Image
+                        src="/../public/df-logo2.png"
+                        alt="DF Logo"
+                        width={50}
+                        height={50} /><h1 className="mt-4 mx-3">David Fazaldin</h1></div>
                     </a>
                 </Link>
                 <ThemeSwitch/>
