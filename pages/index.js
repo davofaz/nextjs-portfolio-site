@@ -17,7 +17,7 @@ export default function Home() {
           <h2 className="text-2xl font-bold text-gray-900 lg:text-2xl dark:text-white"><Link href="/portfolio/">Examples of my recent work</Link></h2>
           
           <RecentWork/>
-          <h2 className="text-2xl font-bold text-gray-900 lg:text-2xl dark:text-white">If:</h2>
+          <h2 className="text-2xl mt-2 font-bold text-gray-900 lg:text-2xl dark:text-white">If:</h2>
           <div className="flex">
             <Link href="mailto:dfazaldin@gmail.com"><button className="w-1/2 underline border rounded-3xl m-4 p-8  hover:bg-red-300" type="button" title="Email: dfazaldin@gmail.com">you're a recruiter, web manager and need an all rounder who thinks deeply about design to join your team</button></Link>
             <Link href="mailto:dfazaldin@gmail.com"><a className="w-1/2 underline border rounded-3xl m-4 p-8  hover:bg-blue-300" type="button">you're a small to medium sized company/organisation and don't know where to start reach out to me.</a></Link>
