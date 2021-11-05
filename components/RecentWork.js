@@ -10,7 +10,7 @@ const RecentWork = () => {
             <li className="m-4 w-1/4 rounded-2xl drop-shadow-2xl">
                     <a>
                         <Image
-                        src="/../public/recent-work-earthly.jpg"
+                        src="../public/recent-work-earthly.jpg"
                         alt="Earthly App"
                         className="rounded-2xl"
                         width={200}
@@ -22,7 +22,7 @@ const RecentWork = () => {
             <li className="m-4 w-1/4 rounded-2xl drop-shadow-2xl">
                     <a>
                         <Image
-                        src="/../public/recent-work-ktapp.jpg"
+                        src="../public/recent-work-ktapp.jpg"
                         alt="KT App"
                         className="rounded-2xl"
                         width={200}
@@ -34,7 +34,7 @@ const RecentWork = () => {
             <li className="m-4 w-1/4 rounded-2xl drop-shadow-2xl">
                     <a>
                         <Image
-                        src="/../public/recent-work-fired.jpg"
+                        src="../public/recent-work-fired.jpg"
                         alt="Fired Pizza"
                         className="rounded-2xl"
                         width={200}
@@ -46,7 +46,7 @@ const RecentWork = () => {
                 <li className="m-4 w-1/4  rounded-2xl drop-shadow-2xl">
                     <a>
                         <Image
-                        src="/../public/recent-work-newsletter.jpg"
+                        src="../public/recent-work-newsletter.jpg"
                         alt="School Newsletter"
                         className="rounded-2xl"
                         width={200}

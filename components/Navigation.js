@@ -13,7 +13,7 @@ const Navigation = () => {
                         className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
                     >
                         <div className="flex"><Image
-                        src="/../public/df-logo2.png"
+                        src="../public/df-logo2.png"
                         alt="DF Logo"
                         width={50}
                         height={50} /><h1 className="mt-4 mx-3">David Fazaldin</h1></div>
