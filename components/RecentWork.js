@@ -5,9 +5,9 @@ import Image from 'next/image'
 const RecentWork = () => {
     return (
 
-        <ul className="mt-8 flex">
+        <ul className="mt-8 flex flex-wrap">
             <Link href="/portfolio/earthly-app">
-            <li className="m-4 w-1/4 rounded-2xl drop-shadow-2xl">
+            <li className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1">
                     <a>
                         <Image
                         src="/recent-work-earthly.jpg"
@@ -19,7 +19,7 @@ const RecentWork = () => {
                 </li>
             </Link>
             <Link href="/portfolio/kt-app">
-            <li className="m-4 w-1/4 rounded-2xl drop-shadow-2xl">
+            <li className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1">
                     <a>
                         <Image
                         src="/recent-work-ktapp.jpg"
@@ -31,7 +31,7 @@ const RecentWork = () => {
                 </li>
             </Link>
             <Link href="/portfolio/fired-pizza">
-            <li className="m-4 w-1/4 rounded-2xl drop-shadow-2xl">
+            <li className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1">
                     <a>
                         <Image
                         src="/recent-work-fired.jpg"
@@ -43,7 +43,7 @@ const RecentWork = () => {
                 </li>
             </Link>
             <Link href="/portfolio/school-newsletter">
-                <li className="m-4 w-1/4  rounded-2xl drop-shadow-2xl">
+                <li className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1">
                     <a>
                         <Image
                         src="/recent-work-newsletter.jpg"
