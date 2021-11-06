@@ -14,14 +14,18 @@ const Navigation = () => {
                         className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
                     >
                         <div className="flex">
-                        <Image
-                        src={logo}
-                        alt="DF Logo"
-                        width={50}
-                        height={50}
-                        placeholder="blur"
-                        priority={true}
-                         /><h1 className="mt-4 mx-3">David Fazaldin</h1></div>
+                            <div className="w-10 h-10 p-1 rounded-full dark:bg-white"> 
+                                <Image
+                                src={logo}
+                                alt="DF Logo"
+                                width={38}
+                                height={38}
+                                placeholder="blur"
+                                priority={true}
+                                />
+                            </div>
+                            <h1 className="mt-3 mx-4">David Fazaldin</h1>
+                        </div>
                     </a>
                 </Link>
                 <ThemeSwitch/>
