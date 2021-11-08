@@ -1,13 +1,20 @@
 import React from "react"
 import Link from 'next/link'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const RecentWork = () => {
     return (
 
         <ul className="mt-8 flex flex-wrap">
             <Link href="/portfolio/earthly-app">
-            <li className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1">
+                <motion.li 
+                className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.3 },
+                 }}
+                    whileTap={{ scale: 0.9 }}>
                     <a>
                         <Image
                         src="/recent-work-earthly.jpg"
@@ -16,10 +23,16 @@ const RecentWork = () => {
                         width={200}
                         height={200} />
                     </a>
-                </li>
+                </motion.li>
             </Link>
             <Link href="/portfolio/kt-app">
-            <li className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1">
+                <motion.li 
+                    className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                    whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 0.9 }}>
                     <a>
                         <Image
                         src="/recent-work-ktapp.jpg"
@@ -28,10 +41,16 @@ const RecentWork = () => {
                         width={200}
                         height={200} />
                     </a>
-                </li>
+                </motion.li>
             </Link>
             <Link href="/portfolio/fired-pizza">
-            <li className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1">
+                <motion.li 
+                    className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                    whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 0.9 }}>
                     <a>
                         <Image
                         src="/recent-work-fired.jpg"
@@ -40,10 +59,16 @@ const RecentWork = () => {
                         width={200}
                         height={200} />
                     </a>
-                </li>
+                </motion.li>
             </Link>
             <Link href="/portfolio/school-newsletter">
-                <li className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1">
+                <motion.li 
+                    className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                    whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 0.9 }}>
                     <a>
                         <Image
                         src="/recent-work-newsletter.jpg"
@@ -52,7 +77,7 @@ const RecentWork = () => {
                         width={200}
                         height={200} />
                     </a>
-                </li>
+                </motion.li>
             </Link>
           </ul>
 
