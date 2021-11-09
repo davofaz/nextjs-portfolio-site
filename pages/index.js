@@ -5,15 +5,19 @@ import About from '../components/About'
 import RecentWork from '../components/RecentWork'
 import { useInView } from 'react-intersection-observer'
 import { motion, useAnimation } from 'framer-motion'
-import { fadeInRight, easing } from '../animations/variants.js'
+import { fadeInRight, fadeInLeft } from '../animations/variants.js'
 
-function FadeInWhenVisible({ children }) {
+function FadeInWhenVisible({ children, variants }) {
   const controls = useAnimation();
-  const [ref, inView] = useInView();
+  const [ref, inView] = useInView({
+    triggerOnce: true
+  });
 
   useEffect(() => {
     if (inView) {
       controls.start("visible");
+    } else {
+      controls.start("hidden");
     }
   }, [controls, inView]);
 
@@ -22,11 +26,7 @@ function FadeInWhenVisible({ children }) {
       ref={ref}
       animate={controls}
       initial="hidden"
-      transition={{ duration: 0.4, delay:0.3 }}
-      variants={{
-        visible: { opacity: 1, scale: 1 },
-        hidden: { opacity: 0.3, scale: 0.5 }
-      }}
+      variants={variants}
     >
       {children}
     </motion.div>
@@ -48,7 +48,7 @@ export default function Home() {
           <h2 className="text-2xl text-center mt-4 font-bold text-gray-900 lg:text-2xl dark:text-white"><Link href="/portfolio/">Examples of my recent work</Link></h2>
           <RecentWork/>
           </FadeInWhenVisible>
-          <FadeInWhenVisible>
+          <FadeInWhenVisible variants={fadeInLeft}>
           <h2 className="text-2xl text-center mt-4 mb-8 font-bold text-gray-900 lg:text-2xl dark:text-white">Contact me if:</h2>
           <ul className="flex flex-wrap">
             <li className="w-full md:w-1/2"><Link href="mailto:dfazaldin@gmail.com"><button className=" underline border rounded-3xl mb-8 p-8 hover:bg-red-300 md:mr-4" type="button" title="Email: dfazaldin@gmail.com">you're a recruiter, web manager and need an all rounder who thinks deeply about design to join your team</button></Link></li>
