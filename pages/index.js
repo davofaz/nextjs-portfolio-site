@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { useEffect } from 'react'
+import { React, useEffect } from 'react'
 import About from '../components/About'
 import RecentWork from '../components/RecentWork'
 import { useInView } from 'react-intersection-observer'
