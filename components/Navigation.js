@@ -26,7 +26,6 @@ const Navigation = () => {
                                 alt="DF Logo"
                                 width={38}
                                 height={38}
-                                placeholder="blur"
                                 priority={true}
                                 />
                             </motion.div>
