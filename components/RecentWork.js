@@ -61,7 +61,7 @@ const RecentWork = () => {
                     </a>
                 </motion.li>
             </Link>
-            <Link href="/portfolio/school-newsletter">
+            <Link href="/portfolio/wash-launderette">
                 <motion.li 
                     className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
                     whileHover={{
@@ -71,8 +71,8 @@ const RecentWork = () => {
                         whileTap={{ scale: 0.9 }}>
                     <a>
                         <Image
-                        src="/recent-work-newsletter.jpg"
-                        alt="School Newsletter"
+                        src="/recent-work-wash-launderette.jpg"
+                        alt="Wash Launderette"
                         className="rounded-2xl"
                         width={200}
                         height={200} />
