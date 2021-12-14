@@ -185,10 +185,10 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
             </Link>
-            <Link href="/portfolio/" className="md:col-span-4">
+            <Link href="/portfolio/">
                
                     <a>
-                        <h3 class="text-white text-2xl md:text-4xl md:p-8 uppercase font-thin"> Recent Work</h3>
+                        <h3 class="text-white text-2xl md:text-4xl md:p-8 uppercase font-thin dark:text-white"> Recent Work</h3>
                     </a>
             </Link>
           </div>

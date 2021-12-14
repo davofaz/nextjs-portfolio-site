@@ -14,7 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="md:max-w-xl mx-auto mt-0 antialiased">
+      <main className="md:max-w-3xl mx-auto mt-0 antialiased">
        
         <div className="flex items-center justify-center">
           {/*FadeIn variants={fadeInRight}> */}
