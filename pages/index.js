@@ -14,14 +14,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="px-4 max-w-4xl mx-auto mt-16 antialiased">
+      <main className="md:max-w-4xl mx-auto mt-0 antialiased">
        
-        <div className="container px-4 mx-auto">
-          <FadeIn variants={fadeInRight}> 
-          <h2 className="text-2xl text-center mt-4 font-bold text-gray-900 lg:text-2xl dark:text-white"><Link href="/portfolio/">Examples of my recent work</Link></h2>
+        <div className="flex">
+          {/*<FadeIn variants={fadeInRight}> */}
+          {/* <h2 className="text-2xl text-center mt-4 font-bold text-gray-900 lg:text-2xl dark:text-white"><Link href="/portfolio/">Examples of my recent work</Link></h2>*/}
           <RecentWork/>
-          </FadeIn>
-          
+          {/* </FadeIn>          */}
         </div>
          <About/>
          <FadeIn variants={fadeInLeft}>

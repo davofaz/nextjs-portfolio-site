@@ -6,10 +6,10 @@ import { motion } from 'framer-motion'
 const RecentWork = () => {
     return (
 
-        <ul className="mt-8 flex flex-wrap">
+        <div className="grid grid-cols-2 gap-2 md:grid-cols-4 gap-y-0 mx-0 border-8 border-black bg-black">
             <Link href="/portfolio/earthly-app">
-                <motion.li 
-                className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                <motion.div 
+                className="p-0 drop-shadow-2xl"
                 whileHover={{
                 scale: 1.1,
                 transition: { duration: 0.3 },
@@ -19,15 +19,14 @@ const RecentWork = () => {
                         <Image
                         src="/recent-work-earthly.jpg"
                         alt="Earthly App"
-                        className="rounded-2xl"
                         width={200}
                         height={200} />
                     </a>
-                </motion.li>
+                </motion.div>
             </Link>
             <Link href="/portfolio/kt-app">
-                <motion.li 
-                    className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
                     whileHover={{
                     scale: 1.1,
                     transition: { duration: 0.3 },
@@ -37,15 +36,15 @@ const RecentWork = () => {
                         <Image
                         src="/recent-work-ktapp.jpg"
                         alt="KT App"
-                        className="rounded-2xl"
+                         
                         width={200}
                         height={200} />
                     </a>
-                </motion.li>
+                </motion.div>
             </Link>
             <Link href="/portfolio/fired-pizza">
-                <motion.li 
-                    className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
                     whileHover={{
                     scale: 1.1,
                     transition: { duration: 0.3 },
@@ -55,15 +54,15 @@ const RecentWork = () => {
                         <Image
                         src="/recent-work-fired.jpg"
                         alt="Fired Pizza"
-                        className="rounded-2xl"
+                         
                         width={200}
                         height={200} />
                     </a>
-                </motion.li>
+                </motion.div>
             </Link>
             <Link href="/portfolio/wash-launderette">
-                <motion.li 
-                    className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
                     whileHover={{
                     scale: 1.1,
                     transition: { duration: 0.3 },
@@ -73,15 +72,44 @@ const RecentWork = () => {
                         <Image
                         src="/recent-work-wash-launderette.jpg"
                         alt="Wash Launderette"
-                        className="rounded-2xl"
+                         
                         width={200}
                         height={200} />
                     </a>
-                </motion.li>
+                </motion.div>
             </Link>
-          </ul>
-
-
+            <Link href="/portfolio/fired-pizza">
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
+                    whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 0.9 }}>
+                    <a>
+                        <Image
+                        src="/recent-work-farakh-parveen.jpg"
+                        alt="Fired Pizza"
+                         
+                        width={200}
+                        height={200} />
+                    </a>
+                </motion.div>
+            </Link>
+            <Link href="/portfolio/wash-launderette">
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
+                    whileHover={{
+                    scale: 3,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 1 }}>
+                    <a>
+                        <h3 class="text-white text-4xl"> Recent Work</h3>
+                    </a>
+                </motion.div>
+            </Link>
+          </div>
 
     )
 }
