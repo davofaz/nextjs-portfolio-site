@@ -6,10 +6,10 @@ import { motion } from 'framer-motion'
 const RecentWork = () => {
     return (
 
-        <ul className="mt-8 flex flex-wrap">
+        <div className="grid grid-cols-3 gap-2 md:grid-cols-4 gap-y-0 border-8 border-b-0 border-black bg-black">
             <Link href="/portfolio/earthly-app">
-                <motion.li 
-                className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                <motion.div 
+                className="p-0 drop-shadow-2xl"
                 whileHover={{
                 scale: 1.1,
                 transition: { duration: 0.3 },
@@ -19,15 +19,14 @@ const RecentWork = () => {
                         <Image
                         src="/recent-work-earthly.jpg"
                         alt="Earthly App"
-                        className="rounded-2xl"
                         width={200}
                         height={200} />
                     </a>
-                </motion.li>
+                </motion.div>
             </Link>
             <Link href="/portfolio/kt-app">
-                <motion.li 
-                    className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
                     whileHover={{
                     scale: 1.1,
                     transition: { duration: 0.3 },
@@ -37,15 +36,15 @@ const RecentWork = () => {
                         <Image
                         src="/recent-work-ktapp.jpg"
                         alt="KT App"
-                        className="rounded-2xl"
+                         
                         width={200}
                         height={200} />
                     </a>
-                </motion.li>
+                </motion.div>
             </Link>
             <Link href="/portfolio/fired-pizza">
-                <motion.li 
-                    className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
                     whileHover={{
                     scale: 1.1,
                     transition: { duration: 0.3 },
@@ -55,15 +54,15 @@ const RecentWork = () => {
                         <Image
                         src="/recent-work-fired.jpg"
                         alt="Fired Pizza"
-                        className="rounded-2xl"
+                         
                         width={200}
                         height={200} />
                     </a>
-                </motion.li>
+                </motion.div>
             </Link>
             <Link href="/portfolio/wash-launderette">
-                <motion.li 
-                    className="p-5 w-1/2 rounded-2xl drop-shadow-2xl md:w-1/4 p-1"
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
                     whileHover={{
                     scale: 1.1,
                     transition: { duration: 0.3 },
@@ -73,15 +72,126 @@ const RecentWork = () => {
                         <Image
                         src="/recent-work-wash-launderette.jpg"
                         alt="Wash Launderette"
-                        className="rounded-2xl"
+                         
                         width={200}
                         height={200} />
                     </a>
-                </motion.li>
+                </motion.div>
             </Link>
-          </ul>
-
-
+            <Link href="https://farakhparveen.com/">
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
+                    whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 0.9 }}>
+                    <a>
+                        <Image
+                        src="/recent-work-farakh-parveen.jpg"
+                        alt="Fired Pizza"
+                         
+                        width={200}
+                        height={200} />
+                    </a>
+                </motion.div>
+            </Link>
+            <Link href="https://washlaunderette.com/">
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
+                    whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 0.9 }}>
+                    <a>
+                        <Image
+                        src="/recent-work-wash-wordpress-website.jpg"
+                        alt="Fired Pizza"
+                         
+                        width={200}
+                        height={200} />
+                    </a>
+                </motion.div>
+            </Link>
+            <Link href="https://www.latinsquares.co.uk">
+                <motion.div 
+                className="p-0 drop-shadow-2xl"
+                whileHover={{
+                scale: 1.1,
+                transition: { duration: 0.3 },
+                 }}
+                    whileTap={{ scale: 0.9 }}>
+                    <a>
+                        <Image
+                        src="/recent-work-latin-squares.jpg"
+                        alt="Earthly App"
+                        width={200}
+                        height={200} />
+                    </a>
+                </motion.div>
+            </Link>
+            <Link href="https://www.kt.org/ktplayer/#kttv-tabs|2">
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
+                    whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 0.9 }}>
+                    <a>
+                        <Image
+                        src="/recent-work-kt-player.jpg"
+                        alt="KT App"
+                         
+                        width={200}
+                        height={200} />
+                    </a>
+                </motion.div>
+            </Link>
+            <Link href="https://www.stmarybrookfield.com">
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
+                    whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 0.9 }}>
+                    <a>
+                        <Image
+                        src="/recent-work-st-mary-brookfield.jpg"
+                        alt="KT App"
+                         
+                        width={200}
+                        height={200} />
+                    </a>
+                </motion.div>
+            </Link>
+            <Link href="https://www.lithuanianchurch.org/">
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
+                    whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 0.9 }}>
+                    <a>
+                        <Image
+                        src="/recent-work-lithuanian-church-london.jpg"
+                        alt="Fired Pizza"
+                         
+                        width={200}
+                        height={200} />
+                    </a>
+                </motion.div>
+            </Link>
+            <Link href="/portfolio/">
+               
+                    <a>
+                        <h3 class="text-white text-2xl md:text-4xl md:p-8 uppercase font-thin dark:text-gray-300"> Recent Work</h3>
+                    </a>
+            </Link>
+          </div>
 
     )
 }
