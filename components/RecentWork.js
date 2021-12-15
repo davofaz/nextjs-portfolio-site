@@ -78,7 +78,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
             </Link>
-            <Link href="/portfolio/fired-pizza">
+            <Link href="https://farakhparveen.com/">
                 <motion.div 
                     className="p-0 drop-shadow-2xl"
                     whileHover={{
@@ -96,7 +96,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
             </Link>
-            <Link href="/portfolio/fired-pizza">
+            <Link href="https://washlaunderette.com/">
                 <motion.div 
                     className="p-0 drop-shadow-2xl"
                     whileHover={{
@@ -114,7 +114,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
             </Link>
-            <Link href="/portfolio/earthly-app">
+            <Link href="https://www.latinsquares.co.uk">
                 <motion.div 
                 className="p-0 drop-shadow-2xl"
                 whileHover={{
@@ -131,7 +131,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
             </Link>
-            <Link href="/portfolio/kt-app">
+            <Link href="https://www.kt.org/ktplayer/#kttv-tabs|2">
                 <motion.div 
                     className="p-0 drop-shadow-2xl"
                     whileHover={{
@@ -149,7 +149,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
             </Link>
-            <Link href="/portfolio/kt-app">
+            <Link href="https://www.stmarybrookfield.com">
                 <motion.div 
                     className="p-0 drop-shadow-2xl"
                     whileHover={{
@@ -167,7 +167,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
             </Link>
-            <Link href="/portfolio/fired-pizza">
+            <Link href="https://www.lithuanianchurch.org/">
                 <motion.div 
                     className="p-0 drop-shadow-2xl"
                     whileHover={{
