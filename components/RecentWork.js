@@ -96,6 +96,24 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
             </Link>
+            <Link href="/portfolio/fired-pizza">
+                <motion.div 
+                    className="p-0 drop-shadow-2xl"
+                    whileHover={{
+                    scale: 1.1,
+                    transition: { duration: 0.3 },
+                    }}
+                        whileTap={{ scale: 0.9 }}>
+                    <a>
+                        <Image
+                        src="/recent-work-wash-wordpress-website.jpg"
+                        alt="Fired Pizza"
+                         
+                        width={200}
+                        height={200} />
+                    </a>
+                </motion.div>
+            </Link>
             <Link href="/portfolio/earthly-app">
                 <motion.div 
                 className="p-0 drop-shadow-2xl"
@@ -125,24 +143,6 @@ const RecentWork = () => {
                         <Image
                         src="/recent-work-kt-player.jpg"
                         alt="KT App"
-                         
-                        width={200}
-                        height={200} />
-                    </a>
-                </motion.div>
-            </Link>
-            <Link href="/portfolio/fired-pizza">
-                <motion.div 
-                    className="p-0 drop-shadow-2xl"
-                    whileHover={{
-                    scale: 1.1,
-                    transition: { duration: 0.3 },
-                    }}
-                        whileTap={{ scale: 0.9 }}>
-                    <a>
-                        <Image
-                        src="/recent-work-wash-wordpress-website.jpg"
-                        alt="Fired Pizza"
                          
                         width={200}
                         height={200} />
@@ -188,7 +188,7 @@ const RecentWork = () => {
             <Link href="/portfolio/">
                
                     <a>
-                        <h3 class="text-white text-2xl md:text-4xl md:p-8 uppercase font-thin dark:text-white"> Recent Work</h3>
+                        <h3 class="text-white text-2xl md:text-4xl md:p-8 uppercase font-thin dark:text-gray-300"> Recent Work</h3>
                     </a>
             </Link>
           </div>

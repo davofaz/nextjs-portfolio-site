@@ -8,7 +8,7 @@ import { motion } from 'framer-motion'
 
 const Navigation = () => {
     return (
-        <div className="sticky top-0 z-20 py-2 bg-white md:py-6 md:mb-6 dark:bg-black">
+        <div className="sticky top-0 z-20 py-2 bg-white border-b-8 border-black md:py-6 md:mb-6 dark:bg-black dark:border-gray-700">
             <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
                 <Link href="/">
                     <a
