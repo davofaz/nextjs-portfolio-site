@@ -19,7 +19,7 @@ const About = () => {
                     />
             </div>
            
-            <div className="text-white text-2xl p-4 md:p-8 bg-black dark:bg-black col-span-6 border-black  mb-0 pb-0 dark:text-gray-300 md:border-0 text-justify">
+            <div className="text-white text-2xl p-4 md:p-8 bg-black dark:bg-black col-span-6 border-black  mb-0 pb-0 dark:text-gray-300 md:border-0">
                         <p className="pb-6">
                             I'm David, a designer based in London in the UK. After my foundation year at Chelsea Art School I realised that design would play a key role in my life. Being influenced by Functional design lead me toward web design. I worked for a medium sized Charity providing fast reliable websites and infrustructure, built online communities via forums and later social media, live web streaming way before Youtube was a thing, e-commerce and donations.</p>
                         <p className="pb-6">I have left that all behind and am currently freelancing full time in UX/UI and Front End Development and Consulting.</p>
