@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const RecentWork = () => {
     return (
 
-        <div className="grid grid-cols-3 gap-x-1.5 gap-y-0 md:grid-cols-4 lg:border-x-8 border-black bg-black">            
+        <div className="grid grid-cols-3 gap-x-1.5 gap-y-0 md:grid-cols-4 lg:border-x-8 border-black bg-black dark:border-gray-700 dark:bg-gray-700">            
                 <motion.div
                 animate={{
                     opacity: 0.8
