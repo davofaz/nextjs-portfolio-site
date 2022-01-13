@@ -8,15 +8,15 @@ import { motion } from 'framer-motion'
 
 const Navigation = () => {
     return (
-        <div className="sticky top-0 z-20 py-2 bg-white border-b-8 border-black dark:bg-black dark:border-gray-700">
+        <div className="sticky bg-white top-0 z-20 py-2 border-b-8 border-black dark:bg-black dark:border-gray-700">
             <div className="container px-4 mx-auto lg:max-w-4xl flex items-center justify-between">
                 <Link href="/">
                     <a
-                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-white"}
+                        className={"font-medium tracking-wider transition-colors text-gray-900 hover:text-sky-500 uppercase dark:text-gray-500"}
                     >
                         <div className="flex">
                             <motion.div 
-                                className="w-10 h-10 p-1 rounded-full dark:bg-white"
+                                className="w-10 h-10 p-1 rounded-full dark:bg-gray-500"
                                 style={{ margin:'0 auto', textAlign:'center' }}
                                 initial={{ opacity: 0 }}
                                 animate={{ opacity: 1}}
