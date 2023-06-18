@@ -5,9 +5,31 @@ import { motion } from 'framer-motion'
 
 const RecentWork = () => {
     return (
-
         <div className="grid grid-cols-3 gap-x-1.5 gap-y-0 md:grid-cols-4 lg:border-x-8 border-black bg-black dark:border-gray-700 dark:bg-gray-700">            
-                <motion.div
+        <motion.div
+                animate={{
+                    opacity: 0.8
+                }}
+                whileHover={{
+                scale: 0.95,
+                opacity: 1,
+                transition: { duration: 0.3 },
+                 }}
+                    whileTap={{ 
+                        opacity: 1,
+                        filter: 'brightness(120%)',
+                        scale: 1.1 }}>
+                    <Link href="/portfolio/my-task-app">
+                        <a>
+                            <Image
+                            src="/recent-work-mytasks-app.jpg"
+                            alt="My Tasks App - Fully working TypeScript App"
+                            width={200}
+                            height={200} />
+                        </a>
+                    </Link>
+        </motion.div>
+        <motion.div
                 animate={{
                     opacity: 0.8
                 }}
