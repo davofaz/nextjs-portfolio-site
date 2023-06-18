@@ -1,5 +1,5 @@
-import React from 'react'
-import RecentWork from '../../components/RecentWork'
+import React from 'react';
+import RecentWork from '../../components/RecentWork';
 
 export default function Portfolio() {
     return (
@@ -10,4 +10,4 @@ export default function Portfolio() {
     
     
     )
-}
+};
