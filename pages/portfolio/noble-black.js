@@ -21,7 +21,8 @@ export default function MyTasksApp() {
                 />
                 <div className="text-base p-4 leading-relaxed">
                 <p className="mb-4">A new project I am working on. I designed the logo and interface in Figma and build the website using wordpress and Divi. The focus was on its design being mobile first. My client didnt want log scrolling webpages so I designed it like a web app.</p>
-                
+
+
             <Link
                     href="https://noble-black.com"
                     passHref={true}
