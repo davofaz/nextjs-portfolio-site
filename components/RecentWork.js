@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 const RecentWork = () => {
     return (
-        <div className="grid grid-cols-3  gap-x-1.5 gap-y-1 md:grid-cols-4 lg:border-x-8 border-black bg-black dark:border-gray-700 dark:bg-gray-700">            
+        <div className="grid grid-cols-3 gap-x-0 gap-y-0 md:grid-cols-4  border-black bg-black dark:border-gray-700 dark:bg-gray-700">            
             <motion.div
                 animate={{
                     opacity: 0.8
@@ -21,13 +21,11 @@ const RecentWork = () => {
                     scale: 1.1
                 }}>
                 <Link href="/portfolio/noble-black">
-                    <a>
                         <Image
                             src="/recent-work-noble-black.jpg"
                             alt="Noble Black - Private Licenced Drivers website design and development"
                             width={200}
                             height={200} />
-                    </a>
                 </Link>
             </motion.div>
             <motion.div
@@ -44,13 +42,11 @@ const RecentWork = () => {
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
                     <Link href="/portfolio/my-task-app">
-                        <a>
                             <Image
                             src="/recent-work-mytasks-app.jpg"
                             alt="My Tasks App - Fully working TypeScript App"
                             width={200}
                             height={200} />
-                        </a>
                     </Link>
         </motion.div>
         <motion.div
@@ -67,13 +63,11 @@ const RecentWork = () => {
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
                     <Link href="/portfolio/earthly-app">
-                        <a>
                             <Image
                             src="/recent-work-earthly.jpg"
                             alt="Earthly App - UX/UI Concept"
                             width={200}
                             height={200} />
-                        </a>
                     </Link>
                 </motion.div>            
             <Link href="/portfolio/kt-app">
@@ -90,13 +84,11 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                        <a>
                             <Image
                             src="/recent-work-ktapp.jpg"
                             alt="KT App - React Native"                            
                             width={200}
                             height={200} />
-                        </a>
                 </motion.div>
             </Link>
             <Link href="/portfolio/fired-pizza">
@@ -113,13 +105,11 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                    <a>
                         <Image
                         src="/recent-work-fired.jpg"
                         alt="Fired Pizza Vercel Website"
                         width={200}
                         height={200} />
-                   </a>
                 </motion.div>
             </Link>
             <Link href="/portfolio/wash-launderette">
@@ -136,13 +126,11 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                    <a>
                         <Image
                         src="/recent-work-wash-launderette.jpg"
                         alt="Wash Launderette App"
                         width={200}
                         height={200} />
-                   </a>
                 </motion.div>
             </Link>
             <Link href="https://farakhparveen.com/">
@@ -159,13 +147,11 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                    <a>
                         <Image
                         src="/recent-work-farakh-parveen.jpg"
                         alt="Farakh Parveen - Shopify Website"                         
                         width={200}
                         height={200} />
-                   </a>
                 </motion.div>
             </Link>
             <Link href="https://washlaunderette.com/">
@@ -182,13 +168,11 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                    <a>
                         <Image
                         src="/recent-work-wash-wordpress-website.jpg"
                         alt="Wash Launderette Wordpress Website"
                         width={200}
                         height={200} />
-                   </a>
                 </motion.div>
             </Link>
             <Link href="https://www.latinsquares.co.uk">
@@ -205,13 +189,11 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                    <a>
                         <Image
                         src="/recent-work-latin-squares.jpg"
                         alt="Latin Squares Wordpress Website"
                         width={200}
                         height={200} />
-                   </a>
                 </motion.div>
             </Link>
             <Link href="https://www.kt.org/ktplayer/#kttv-tabs|2">
@@ -228,13 +210,11 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                    <a>
                         <Image
                         src="/recent-work-kt-player.jpg"
                         alt="KT TV Player - Wordpress Website - custom divi modules"
                         width={200}
                         height={200} />
-                   </a>
                 </motion.div>
             </Link>
             <Link href="https://www.stmarybrookfield.com">
@@ -251,13 +231,11 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                    <a>
                         <Image
                         src="/recent-work-st-mary-brookfield.jpg"
                         alt="St Mary Brookfield - Wordpress Website"                         
                         width={200}
                         height={200} />
-                   </a>
                 </motion.div>
             </Link>
             <Link href="https://www.lithuanianchurch.org/">
@@ -274,20 +252,17 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                    <a>
                         <Image
                         src="/recent-work-lithuanian-church-london.jpg"
                         alt="Lithuanian Church in London - Wordpress Website"
                         width={200}
                         height={200} />
-                   </a>
                 </motion.div>
             </Link>
             <Link href="/portfolio/">
                
-                    <a>
                         <h3 class="text-white text-2xl md:text-4xl p-4 md:p-8 uppercase font-thin dark:text-gray-300"> Recent Work</h3>
-                    </a>
+              
             </Link>
           </div>
 
