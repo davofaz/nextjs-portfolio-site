@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>David Fazaldin - UX/UI Designer &amp; Front End Dev - Wordpress, Shopify, NextJs</title>
+        <title>David Fazaldin - UX/UI Designer &amp; Front End Dev -Figma, NextJs, Wordpress, Shopify, Wix </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
