@@ -53,6 +53,72 @@ const RecentWork = () => {
                     </Link>
         </motion.div>
         <motion.div
+                    className="flex"
+                    animate={{
+                        opacity: 0.8,
+                    }}
+                    whileHover={{
+                    scale: 0.95,
+                    opacity: 1,
+                    transition: { duration: 0.3 },
+                     }}
+                        whileTap={{ 
+                        opacity: 1,
+                        filter: 'brightness(120%)',
+                        scale: 1.1 }}>
+                    <a href="https://washlaunderette.com/" target="_blank" className="flex">
+                        <Image
+                        src="/recent-work-wash-wordpress-website.jpg"
+                        alt="Wash Launderette - Next.js website"
+                        width={200}
+                        height={200} />
+                    </a>
+                </motion.div>
+         <motion.div
+                className="flex"
+                animate={{
+                    opacity: 0.8
+                }}
+                whileHover={{
+                scale: 0.95,
+                opacity: 1,
+                transition: { duration: 0.3 },
+                 }}
+                    whileTap={{ 
+                        opacity: 1,
+                        filter: 'brightness(120%)',
+                        scale: 1.1 }}>
+                    <a href="https://intiremoval.com/" target="_blank" className="flex">
+                            <Image
+                            src="/recent-work-intiremoval.jpg"
+                            alt="Intiremoval - Wordpress Website"
+                            width={200}
+                            height={200} />
+                    </a>
+                </motion.div>  
+        <motion.div
+                className="flex"
+                animate={{
+                    opacity: 0.8
+                }}
+                whileHover={{
+                scale: 0.95,
+                opacity: 1,
+                transition: { duration: 0.3 },
+                 }}
+                    whileTap={{ 
+                        opacity: 1,
+                        filter: 'brightness(120%)',
+                        scale: 1.1 }}>
+                    <a href="https://davofaz.github.io/recipe-app/" target="_blank" className="flex">
+                            <Image
+                            src="/recent-work-my-recipe-finder-app.jpg"
+                            alt="My Recipe Finder App - Standaline React JS App"
+                            width={200}
+                            height={200} />
+                    </a>
+                </motion.div>
+                <motion.div
                 className="flex"
                 animate={{
                     opacity: 0.8
@@ -97,7 +163,29 @@ const RecentWork = () => {
                             height={200} />
                         </Link>
                 </motion.div>
-            
+             <motion.div
+                    className="flex"
+                    animate={{
+                        opacity: 0.8,
+                    }}
+                    whileHover={{
+                    scale: 0.95,
+                    opacity: 1,
+                    transition: { duration: 0.3 },
+                     }}
+                        whileTap={{ 
+                        opacity: 1,
+                        filter: 'brightness(120%)',
+                        scale: 1.1 }}>
+                        <a href="https://www.emcpersonaltrainer.uk/" target="_blank" className="flex">
+                            <Image
+                            
+                            src="/recent-work-emc-personal-trainer.jpg"
+                            alt="EMC Pesonal Training - Next.js website"
+                            width={200}
+                            height={200} />
+                        </a>
+                </motion.div>
             
                 <motion.div
                     className="flex"
@@ -120,6 +208,50 @@ const RecentWork = () => {
                         width={200}
                         height={200} />
                     </Link>
+                </motion.div>
+                <motion.div
+                    className="flex"
+                    animate={{
+                        opacity: 0.8,
+                    }}
+                    whileHover={{
+                    scale: 0.95,
+                    opacity: 1,
+                    transition: { duration: 0.3 },
+                     }}
+                        whileTap={{ 
+                        opacity: 1,
+                        filter: 'brightness(120%)',
+                        scale: 1.1 }}>
+                    <a href="https://www.rapltd.london/" target="_blank" className="flex">
+                        <Image
+                        src="/recent-work-rap-rapid-applied-protection.jpg"
+                        alt="RAP Ltd - Rapid Applied Protection  - Wordpress Website"
+                        width={200}
+                        height={200} />
+                    </a>
+                </motion.div>
+                <motion.div
+                    className="flex"
+                    animate={{
+                        opacity: 0.8,
+                    }}
+                    whileHover={{
+                    scale: 0.95,
+                    opacity: 1,
+                    transition: { duration: 0.3 },
+                     }}
+                        whileTap={{ 
+                        opacity: 1,
+                        filter: 'brightness(120%)',
+                        scale: 1.1 }}>
+                    <a href="https://urpy.co.uk/" target="_blank" className="flex">
+                        <Image
+                        src="/recent-work-urpy-cleaning-and-sanitization.jpg"
+                        alt="Urpy - Cleaning and Sanitization - Wordpress Website"
+                        width={200}
+                        height={200} />
+                    </a>
                 </motion.div>
                 <motion.div
                     className="flex"
@@ -163,30 +295,6 @@ const RecentWork = () => {
                         <Image
                         src="/recent-work-farakh-parveen.jpg"
                         alt="Farakh Parveen - Shopify Website"                         
-                        width={200}
-                        height={200} />
-                    </Link>
-                </motion.div>
-            
-           
-                <motion.div
-                    className="flex"
-                    animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
-                    opacity: 1,
-                    transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
-                    <Link href="https://washlaunderette.com/">
-                        <Image
-                        src="/recent-work-wash-wordpress-website.jpg"
-                        alt="Wash Launderette Wordpress Website"
                         width={200}
                         height={200} />
                     </Link>
