@@ -2,6 +2,7 @@ import React from "react"
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { FaExternalLinkSquareAlt } from 'react-icons/fa'
 
 const RecentWork = () => {
     return (
@@ -72,6 +73,7 @@ const RecentWork = () => {
                         alt="Wash Launderette - Next.js website"
                         width={200}
                         height={200} />
+                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                     </a>
                 </motion.div>
          <motion.div
@@ -94,8 +96,9 @@ const RecentWork = () => {
                             alt="Intiremoval - Wordpress Website"
                             width={200}
                             height={200} />
+                            <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/> 
                     </a>
-                </motion.div>  
+                </motion.div> 
         <motion.div
                 className="flex"
                 animate={{
@@ -116,7 +119,55 @@ const RecentWork = () => {
                             alt="My Recipe Finder App - Standaline React JS App"
                             width={200}
                             height={200} />
+                            <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                     </a>
+                </motion.div>
+                <motion.div
+                    className="flex"
+                    animate={{
+                        opacity: 0.8,
+                    }}
+                    whileHover={{
+                    scale: 0.95,
+                    opacity: 1,
+                    transition: { duration: 0.3 },
+                     }}
+                        whileTap={{ 
+                        opacity: 1,
+                        filter: 'brightness(120%)',
+                        scale: 1.1 }}>
+                    <a href="https://urpy.co.uk/" target="_blank" className="flex">
+                        <Image
+                        src="/recent-work-urpy-cleaning-and-sanitization-2.jpg"
+                        alt="Urpy - Cleaning and Sanitization - Wordpress Website"
+                        width={200}
+                        height={200} />
+                        
+                    </a><FaExternalLinkSquareAlt size={24} className="absolute z-10 text-black right-2 bottom-2 display"/>
+                </motion.div>
+                <motion.div
+                    className="flex"
+                    animate={{
+                        opacity: 0.8,
+                    }}
+                    whileHover={{
+                    scale: 0.95,
+                    opacity: 1,
+                    transition: { duration: 0.3 },
+                     }}
+                        whileTap={{ 
+                        opacity: 1,
+                        filter: 'brightness(120%)',
+                        scale: 1.1 }}>
+                        <a href="https://www.emcpersonaltrainer.uk/" target="_blank" className="flex">
+                            <Image
+                            
+                            src="/recent-work-emc-personal-trainer.jpg"
+                            alt="EMC Pesonal Training - Next.js website"
+                            width={200}
+                            height={200} />
+                            <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
+                        </a>
                 </motion.div>
                 <motion.div
                 className="flex"
@@ -163,29 +214,7 @@ const RecentWork = () => {
                             height={200} />
                         </Link>
                 </motion.div>
-             <motion.div
-                    className="flex"
-                    animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
-                    opacity: 1,
-                    transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
-                        <a href="https://www.emcpersonaltrainer.uk/" target="_blank" className="flex">
-                            <Image
-                            
-                            src="/recent-work-emc-personal-trainer.jpg"
-                            alt="EMC Pesonal Training - Next.js website"
-                            width={200}
-                            height={200} />
-                        </a>
-                </motion.div>
+             
             
                 <motion.div
                     className="flex"
@@ -229,30 +258,10 @@ const RecentWork = () => {
                         alt="RAP Ltd - Rapid Applied Protection  - Wordpress Website"
                         width={200}
                         height={200} />
+                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                     </a>
                 </motion.div>
-                <motion.div
-                    className="flex"
-                    animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
-                    opacity: 1,
-                    transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
-                    <a href="https://urpy.co.uk/" target="_blank" className="flex">
-                        <Image
-                        src="/recent-work-urpy-cleaning-and-sanitization.jpg"
-                        alt="Urpy - Cleaning and Sanitization - Wordpress Website"
-                        width={200}
-                        height={200} />
-                    </a>
-                </motion.div>
+                
                 <motion.div
                     className="flex"
                     animate={{
@@ -275,6 +284,29 @@ const RecentWork = () => {
                         height={200} />
                     </Link>
                 </motion.div>
+                <motion.div
+                    className="flex"
+                    animate={{
+                    opacity: 0.8,
+                }}
+                whileHover={{
+                scale: 0.95,
+                opacity: 1,
+                transition: { duration: 0.3 },
+                 }}
+                    whileTap={{ 
+                        opacity: 1,
+                        filter: 'brightness(120%)',
+                        scale: 1.1 }}>
+                    <a href="https://www.stmarybrookfield.com" target="_blank" className="flex">
+                        <Image
+                        src="/recent-work-st-mary-brookfield.jpg"
+                        alt="St Mary Brookfield - Wordpress Website"                         
+                        width={200}
+                        height={200} />
+                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
+                    </a>
+                </motion.div>
             
             
                 <motion.div
@@ -291,13 +323,14 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                    <Link href="https://farakhparveen.com/">
+                    <a href="https://farakhparveen.com/">
                         <Image
                         src="/recent-work-farakh-parveen.jpg"
                         alt="Farakh Parveen - Shopify Website"                         
                         width={200}
                         height={200} />
-                    </Link>
+                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
+                    </a>
                 </motion.div>
                 <motion.div
                 className="flex"
@@ -313,13 +346,14 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                  <Link href="https://www.latinsquares.co.uk">
+                  <a href="https://www.latinsquares.co.uk" target="_blank" className="flex">
                         <Image
                         src="/recent-work-latin-squares.jpg"
                         alt="Latin Squares Wordpress Website"
                         width={200}
                         height={200} />
-                  </Link>
+                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
+                  </a>
                 </motion.div>
                 <motion.div
                     className="flex"
@@ -335,36 +369,16 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                    <Link href="https://www.kt.org/ktplayer/#kttv-tabs|2">
+                    <a href="https://www.kt.org/ktplayer/#kttv-tabs|2" target="_blank" className="flex">
                         <Image
                         src="/recent-work-kt-player.jpg"
                         alt="KT TV Player - Wordpress Website - custom divi modules"
                         width={200}
                         height={200} />
-                    </Link>
+                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
+                    </a>
                 </motion.div>
-                <motion.div
-                    className="flex"
-                    animate={{
-                    opacity: 0.8,
-                }}
-                whileHover={{
-                scale: 0.95,
-                opacity: 1,
-                transition: { duration: 0.3 },
-                 }}
-                    whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
-                    <Link href="https://www.stmarybrookfield.com">
-                        <Image
-                        src="/recent-work-st-mary-brookfield.jpg"
-                        alt="St Mary Brookfield - Wordpress Website"                         
-                        width={200}
-                        height={200} />
-                    </Link>
-                </motion.div>
+                
                 <motion.div 
                 className="flex"    
                 animate={{
@@ -379,13 +393,14 @@ const RecentWork = () => {
                         opacity: 1,
                         filter: 'brightness(120%)',
                         scale: 1.1 }}>
-                     <Link href="https://www.lithuanianchurch.org/">
+                     <a href="https://www.lithuanianchurch.org/" target="_blank" className="flex">
                         <Image
                         src="/recent-work-lithuanian-church-london.jpg"
                         alt="Lithuanian Church in London - Wordpress Website"
                         width={200}
                         height={200} />
-                     </Link>
+                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
+                     </a>
                 </motion.div>
             
             <Link href="/portfolio/">
