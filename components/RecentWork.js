@@ -54,7 +54,7 @@ const RecentWork = () => {
                     </Link>
         </motion.div>
         <motion.div
-                    className="flex"
+                    className="flex relative"
                     animate={{
                         opacity: 0.8,
                     }}
@@ -77,7 +77,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
          <motion.div
-                className="flex"
+                className="flex relative"
                 animate={{
                     opacity: 0.8
                 }}
@@ -100,7 +100,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div> 
         <motion.div
-                className="flex"
+                className="flex relative"
                 animate={{
                     opacity: 0.8
                 }}
@@ -123,7 +123,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
                 <motion.div
-                    className="flex"
+                    className="flex relative"
                     animate={{
                         opacity: 0.8,
                     }}
@@ -146,7 +146,7 @@ const RecentWork = () => {
                     </a><FaExternalLinkSquareAlt size={24} className="absolute z-10 text-black right-2 bottom-2 display"/>
                 </motion.div>
                 <motion.div
-                    className="flex"
+                    className="flex relative"
                     animate={{
                         opacity: 0.8,
                     }}
@@ -239,7 +239,7 @@ const RecentWork = () => {
                     </Link>
                 </motion.div>
                 <motion.div
-                    className="flex"
+                    className="flex relative"
                     animate={{
                         opacity: 0.8,
                     }}
@@ -285,7 +285,7 @@ const RecentWork = () => {
                     </Link>
                 </motion.div>
                 <motion.div
-                    className="flex"
+                    className="flex relative"
                     animate={{
                     opacity: 0.8,
                 }}
@@ -310,7 +310,7 @@ const RecentWork = () => {
             
             
                 <motion.div
-                    className="flex"
+                    className="flex relative"
                     animate={{
                         opacity: 0.8,
                     }}
@@ -333,7 +333,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
                 <motion.div
-                className="flex"
+                className="flex relative"
                 animate={{
                     opacity: 0.8,
                 }}
@@ -356,7 +356,7 @@ const RecentWork = () => {
                   </a>
                 </motion.div>
                 <motion.div
-                    className="flex"
+                    className="flex relative"
                     animate={{
                         opacity: 0.8,
                     }}
@@ -380,7 +380,7 @@ const RecentWork = () => {
                 </motion.div>
                 
                 <motion.div 
-                className="flex"    
+                className="flex relative"    
                 animate={{
                         opacity: 0.8,
                     }}
