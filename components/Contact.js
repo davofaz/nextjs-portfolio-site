@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const Contact = () => {
     return (
-        <div className="grid grid-cols-2 sm:grid-cols-2 gap-0 gap-y-0 border-8 border-b-8 border-t-8 border-black bg-white dark:border-gray-700 dark:bg-gray-400">
+        <div className="flex border-8 border-b-8 border-t-8 border-black bg-white dark:border-gray-700 dark:bg-gray-400">
             <div className="col-span-2 p-4">
                 <h3 className="text-black text-center text-2xl bg-white md:text-4xl md:p-4 uppercase font-thin dark:text-gray-800 dark:bg-gray-400">Contact me</h3>
             </div>
