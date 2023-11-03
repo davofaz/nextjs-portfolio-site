@@ -6,16 +6,16 @@ import { FaExternalLinkSquareAlt } from 'react-icons/fa'
 
 const RecentWork = () => {
     return (
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-5 bg-black dark:bg-gray-700">            
+        <div className="grid grid-cols-3 md:grid-cols-4">            
             <motion.div
                 className="flex"
                 animate={{
-                    opacity: 0.8,
+                    opacity: 1,
                     scale:1
                 }}
                 whileHover={{
                     scale: 0.95,
-                    opacity: 1,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
                 }}
                 whileTap={{
@@ -32,19 +32,20 @@ const RecentWork = () => {
                 </Link>
             </motion.div>
             <motion.div
-                className="flex"
                 animate={{
-                    opacity: 0.8
+                    opacity: 1,
+                    scale:1
                 }}
                 whileHover={{
-                scale: 0.95,
-                opacity: 1,
-                transition: { duration: 0.3 },
-                 }}
-                    whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <Link href="/portfolio/my-task-app">
                             <Image
                              src="/recent-work-mytasks-app.jpg"
@@ -56,17 +57,19 @@ const RecentWork = () => {
         <motion.div
                     className="flex relative"
                     animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
                     opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <a href="https://washlaunderette.com/" target="_blank" className="flex">
                         <Image
                         src="/recent-work-wash-wordpress-website.jpg"
@@ -79,17 +82,19 @@ const RecentWork = () => {
          <motion.div
                 className="flex relative"
                 animate={{
-                    opacity: 0.8
+                    opacity: 1,
+                    scale:1
                 }}
                 whileHover={{
-                scale: 0.95,
-                opacity: 1,
-                transition: { duration: 0.3 },
-                 }}
-                    whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <a href="https://intiremoval.com/" target="_blank" className="flex">
                             <Image
                             src="/recent-work-intiremoval.jpg"
@@ -102,17 +107,19 @@ const RecentWork = () => {
         <motion.div
                 className="flex relative"
                 animate={{
-                    opacity: 0.8
+                    opacity: 1,
+                    scale:1
                 }}
                 whileHover={{
-                scale: 0.95,
-                opacity: 1,
-                transition: { duration: 0.3 },
-                 }}
-                    whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <a href="https://davofaz.github.io/recipe-app/" target="_blank" className="flex">
                             <Image
                             src="/recent-work-my-recipe-finder-app.jpg"
@@ -125,17 +132,19 @@ const RecentWork = () => {
                 <motion.div
                     className="flex relative"
                     animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
                     opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <a href="https://urpy.co.uk/" target="_blank" className="flex">
                         <Image
                         src="/recent-work-urpy-cleaning-and-sanitization-2.jpg"
@@ -148,17 +157,19 @@ const RecentWork = () => {
                 <motion.div
                     className="flex relative"
                     animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
                     opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                         <a href="https://www.emcpersonaltrainer.uk/" target="_blank" className="flex">
                             <Image
                             
@@ -172,17 +183,19 @@ const RecentWork = () => {
                 <motion.div
                 className="flex"
                 animate={{
-                    opacity: 0.8
+                    opacity: 1,
+                    scale:1
                 }}
                 whileHover={{
-                scale: 0.95,
-                opacity: 1,
-                transition: { duration: 0.3 },
-                 }}
-                    whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <Link href="/portfolio/earthly-app">
                             <Image
                             src="/recent-work-earthly.jpg"
@@ -194,17 +207,19 @@ const RecentWork = () => {
                 <motion.div
                     className="flex"
                     animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
                     opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                         <Link href="/portfolio/kt-app">
                             <Image
                             
@@ -219,17 +234,19 @@ const RecentWork = () => {
                 <motion.div
                     className="flex"
                     animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
                     opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <Link href="/portfolio/fired-pizza">
                         <Image
                         src="/recent-work-fired.jpg"
@@ -241,17 +258,19 @@ const RecentWork = () => {
                 <motion.div
                     className="flex relative"
                     animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
                     opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <a href="https://www.rapltd.london/" target="_blank" className="flex">
                         <Image
                         src="/recent-work-rap-rapid-applied-protection.jpg"
@@ -265,17 +284,19 @@ const RecentWork = () => {
                 <motion.div
                     className="flex"
                     animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
                     opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <Link href="/portfolio/wash-launderette">
                         <Image
                         src="/recent-work-wash-launderette.jpg"
@@ -287,17 +308,19 @@ const RecentWork = () => {
                 <motion.div
                     className="flex relative"
                     animate={{
-                    opacity: 0.8,
+                    opacity: 1,
+                    scale:1
                 }}
                 whileHover={{
-                scale: 0.95,
-                opacity: 1,
-                transition: { duration: 0.3 },
-                 }}
-                    whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <a href="https://www.stmarybrookfield.com" target="_blank" className="flex">
                         <Image
                         src="/recent-work-st-mary-brookfield.jpg"
@@ -312,17 +335,19 @@ const RecentWork = () => {
                 <motion.div
                     className="flex relative"
                     animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
                     opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <a href="https://farakhparveen.com/">
                         <Image
                         src="/recent-work-farakh-parveen.jpg"
@@ -335,17 +360,19 @@ const RecentWork = () => {
                 <motion.div
                 className="flex relative"
                 animate={{
-                    opacity: 0.8,
+                    opacity: 1,
+                    scale:1
                 }}
                 whileHover={{
-                scale: 0.95,
-                opacity: 1,
-                transition: { duration: 0.3 },
-                 }}
-                    whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                   <a href="https://www.latinsquares.co.uk" target="_blank" className="flex">
                         <Image
                         src="/recent-work-latin-squares.jpg"
@@ -358,17 +385,19 @@ const RecentWork = () => {
                 <motion.div
                     className="flex relative"
                     animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
                     opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                     <a href="https://www.kt.org/ktplayer/#kttv-tabs|2" target="_blank" className="flex">
                         <Image
                         src="/recent-work-kt-player.jpg"
@@ -382,17 +411,19 @@ const RecentWork = () => {
                 <motion.div 
                 className="flex relative"    
                 animate={{
-                        opacity: 0.8,
-                    }}
-                    whileHover={{
-                    scale: 0.95,
                     opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
                     transition: { duration: 0.3 },
-                     }}
-                        whileTap={{ 
-                        opacity: 1,
-                        filter: 'brightness(120%)',
-                        scale: 1.1 }}>
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
                      <a href="https://www.lithuanianchurch.org/" target="_blank" className="flex">
                         <Image
                         src="/recent-work-lithuanian-church-london.jpg"
@@ -405,7 +436,7 @@ const RecentWork = () => {
             
             <Link href="/portfolio/">
                
-                        <h3 className="text-white text-2xl md:text-4xl p-4 md:p-8 uppercase font-thin dark:text-gray-300"> Recent Work</h3>
+                        <h3 className="text-grey-900 text-2xl md:text-4xl p-4 md:p-8 uppercase font-thin dark:text-gray-300"> Recent Work</h3>
               
             </Link>
           </div>

@@ -2,15 +2,14 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <div className="mt-12 lg:mt-18 sm:pb-36 sm:py-12 py-6">
-            <div className="max-w-4xl px-4 mx-auto text-gray-800 dark:text-gray-300">
-                <div className="pb-8 mb-2 border-t-8 border-black dark:border-gray-700"></div>
-                <div className="flex flex-col justify-between lg:flex-row items-center">
-                    <p>Built with Next.js, Tailwind and Vercel</p>
-                    <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
+        <div className="mt-12 lg:mt-18 sm:py-12 py-6">
+            <div className="max-w-4xl px-6 mx-auto text-gray-800 dark:text-gray-600"  style={{minWidth: '320px', maxWidth:'1400px'}}>
+                <div className="pb-4 mb-2 border-t border-black dark:border-gray-600"></div>
+                <div className="flex flex-col justify-between lg:flex-row">
+                    <div className="flex flex-wrap  sm:space-x-6 space-x-4 font-medium lg:pt-0">
                         <a
                             href="https://twitter.com/davo0o"
-                            className={"transition-colors hover:text-yellow-500"}
+                            className={"transition-colors hover:text-gray-400"}
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -18,7 +17,7 @@ const Footer = () => {
                         </a>
                         <a
                             href="https://www.linkedin.com/in/david-fazaldin-26b66731/"
-                            className={"transition-colors hover:text-yellow-500"}
+                            className={"transition-colors hover:text-gray-400"}
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -26,7 +25,7 @@ const Footer = () => {
                         </a>
                         <a
                             href="https://github.com/davofaz"
-                            className={"transition-colors hover:text-yellow-500"}
+                            className={"transition-colors hover:text-gray-400"}
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -34,7 +33,7 @@ const Footer = () => {
                         </a>
                         <a
                             href="https://www.instagram.com/fazaa_nft/"
-                            className={"transition-colors hover:text-yellow-500"}
+                            className={"transition-colors hover:text-gray-400"}
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -42,28 +41,12 @@ const Footer = () => {
                         </a>
                         <a
                             href="https://www.instagram.com/davofaz"
-                            className={"transition-colors hover:text-yellow-500"}
+                            className={"transition-colors hover:text-gray-400"}
                             target="_blank"
                             rel="noreferrer"
                         >
                             IG Personal
                         </a>
-                        {/*<a
-                            href="#"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            DEV
-                        </a>
-                        <a
-                            href="#"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            Hashnode
-                        </a> */}
                     </div>
                 </div>
             </div>
