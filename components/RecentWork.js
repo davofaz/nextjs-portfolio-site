@@ -8,7 +8,7 @@ const RecentWork = () => {
     return (
         <div className="grid grid-cols-3 md:grid-cols-4">            
             <motion.div
-                className="flex"
+                className="flex row-span-2 col-span-2 relative shadow-inner"
                 animate={{
                     opacity: 1,
                     scale:1
@@ -25,35 +25,12 @@ const RecentWork = () => {
                 }}>
                 <Link href="/portfolio/noble-black">
                         <Image
-                            src="/recent-work-noble-black.jpg"
+                            src="/recent-work-noble-black-large.jpg"
                             alt="Noble Black - Private Licenced Drivers website design and development"                         
-                            width={200}
-                            height={200}/>
+                            layout='fill'/>
                 </Link>
             </motion.div>
-            <motion.div
-                animate={{
-                    opacity: 1,
-                    scale:1
-                }}
-                whileHover={{
-                    scale: 0.95,
-                    opacity: 0.8,
-                    transition: { duration: 0.3 },
-                }}
-                whileTap={{
-                    opacity: 1,
-                    filter: 'brightness(120%)',
-                    scale: 1.1
-                }}>
-                    <Link href="/portfolio/my-task-app">
-                            <Image
-                             src="/recent-work-mytasks-app.jpg"
-                            alt="My Tasks App - Fully working TypeScript App"
-                            width={200}
-                            height={200} />
-                    </Link>
-        </motion.div>
+            
         <motion.div
                     className="flex relative"
                     animate={{
@@ -180,6 +157,7 @@ const RecentWork = () => {
                             <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                         </a>
                 </motion.div>
+               
                 <motion.div
                 className="flex"
                 animate={{
@@ -203,8 +181,32 @@ const RecentWork = () => {
                             width={200}
                             height={200} />
                     </Link>
-                </motion.div>  
-                <motion.div
+                </motion.div>
+                 <motion.div
+                className="flex row-span-2 col-span-2 relative shadow-inner"
+                animate={{
+                    opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
+                    <Link href="/portfolio/my-task-app">
+                            <Image
+                             src="/recent-work-mytasks-app-large.jpg"
+                            alt="My Tasks App - Fully working TypeScript App"
+                            layout="fill" />
+                    </Link>
+        </motion.div>
+                
+                 <motion.div
                     className="flex"
                     animate={{
                     opacity: 1,
@@ -220,16 +222,14 @@ const RecentWork = () => {
                     filter: 'brightness(120%)',
                     scale: 1.1
                 }}>
-                        <Link href="/portfolio/kt-app">
-                            <Image
-                            
-                            src="/recent-work-ktapp.jpg"
-                            alt="KT App - React Native"
-                            width={200}
-                            height={200} />
-                        </Link>
+                    <Link href="/portfolio/wash-launderette">
+                        <Image
+                        src="/recent-work-wash-launderette.jpg"
+                        alt="Wash Launderette App"
+                        width={200}
+                        height={200} />
+                    </Link>
                 </motion.div>
-             
             
                 <motion.div
                     className="flex"
@@ -254,6 +254,30 @@ const RecentWork = () => {
                         width={200}
                         height={200} />
                     </Link>
+                </motion.div>
+                <motion.div
+                    className="flex row-span-2 col-span-2 relative shadow-inner"
+                    animate={{
+                    opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
+                        <Link href="/portfolio/kt-app">
+                            <Image
+                            
+                            src="/recent-work-kt-app-thumb-large.jpg"
+                            alt="KT App - React Native"
+                            layout="fill" />
+                        </Link>
                 </motion.div>
                 <motion.div
                     className="flex relative"
@@ -281,30 +305,7 @@ const RecentWork = () => {
                     </a>
                 </motion.div>
                 
-                <motion.div
-                    className="flex"
-                    animate={{
-                    opacity: 1,
-                    scale:1
-                }}
-                whileHover={{
-                    scale: 0.95,
-                    opacity: 0.8,
-                    transition: { duration: 0.3 },
-                }}
-                whileTap={{
-                    opacity: 1,
-                    filter: 'brightness(120%)',
-                    scale: 1.1
-                }}>
-                    <Link href="/portfolio/wash-launderette">
-                        <Image
-                        src="/recent-work-wash-launderette.jpg"
-                        alt="Wash Launderette App"
-                        width={200}
-                        height={200} />
-                    </Link>
-                </motion.div>
+               
                 <motion.div
                     className="flex relative"
                     animate={{
