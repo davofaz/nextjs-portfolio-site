@@ -437,7 +437,7 @@ const RecentWork = () => {
             
             <Link href="/portfolio/">
                
-                        <h3 className="text-grey-900 text-2xl md:text-4xl p-4 md:p-8 uppercase font-thin dark:text-gray-300"> Recent Work</h3>
+                        <h3 className="text-grey-900 text-2xl p-2 md:p-4 uppercase font-thin dark:text-gray-300"> Recent Work</h3>
               
             </Link>
           </div>
