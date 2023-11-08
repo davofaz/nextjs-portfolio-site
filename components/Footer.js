@@ -3,10 +3,10 @@ import React from "react";
 const Footer = () => {
     return (
         <div className="mt-12 lg:mt-18 sm:py-12 py-6">
-            <div className="max-w-4xl px-6 mx-auto text-gray-800 dark:text-gray-600"  style={{minWidth: '320px', maxWidth:'1400px'}}>
+            <div className="max-w-4xl mx-auto text-gray-800 dark:text-gray-600"  style={{minWidth: '320px', maxWidth:'1400px'}}>
                 <div className="pb-4 mb-2 border-t border-black dark:border-gray-600"></div>
                 <div className="flex flex-col justify-between lg:flex-row">
-                    <div className="flex flex-wrap  sm:space-x-6 space-x-4 font-medium lg:pt-0">
+                    <div className="inline-flex space-between ml-6 md:space-x-6 space-x-4 text-sm lg:pt-0">
                         <a
                             href="https://twitter.com/davo0o"
                             className={"transition-colors hover:text-gray-400"}
