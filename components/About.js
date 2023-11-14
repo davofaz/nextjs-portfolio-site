@@ -5,9 +5,9 @@ import profile from "../public/david-fazaldin-profile.jpg"
 const About = () => {
     
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col md:flex-row md:pt-32">
         <div
-                className="relative"
+                className="relative sm:basis-1/3 lg:basis-1/2" 
                 style={{
                   backgroundSize: "contain",
                   backgroundRepeat: "no-repeat",
@@ -25,7 +25,7 @@ const About = () => {
                 </div>
             </div>
                    
-         <div className="p-6 lg:px-24 lg:pt-24  text-justify dark:text-gray-400">
+         <div className="p-6 md:pt-0 text-justify dark:text-gray-400 sm:basis-2/3 lg:basis-1/2">
           
               <p className="pb-6">Hi, I'm David, a London-based designer with a passion for crafting digital experiences. My journey began with a foundation year at Chelsea Art School, leading me to explore Graphic Design & Advertising. Surprisingly, it was web design that truly captivated me, a fascination that has endured for over two decades.</p>
               <p className="pb-6">Today, I proudly freelance full-time in the realms of UX/UI and Front-End Development. With a diverse background spanning Charity, Media, and Education, I hold a deep commitment to creating accessible and inclusive digital solutions.</p>

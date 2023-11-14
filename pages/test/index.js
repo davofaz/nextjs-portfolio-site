@@ -4,7 +4,7 @@ import About from '../../components/About'
 
 export default function Test() {
     return (
-        <main className="flex flex-col sm:flex-row-reverse sm:flex-row lg:mx-auto" style={{maxWidth:'1400px'}}>
+        <main className="flex flex-col lg:mx-auto" style={{maxWidth:'1400px'}}>
         <div className="basis-2/6 sm:basis-1/2"><RecentWork /></div>
         <div className="basis-4/6 sm:basis-1/2 flex flex-col ">
             <About />
