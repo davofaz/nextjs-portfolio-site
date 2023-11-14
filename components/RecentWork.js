@@ -6,7 +6,7 @@ import { FaExternalLinkSquareAlt } from 'react-icons/fa'
 
 const RecentWork = () => {
     return (
-        <div className="grid grid-cols-3 md:grid-cols-4">            
+        <div className="grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8">            
             <motion.div
                 className="flex row-span-2 col-span-2 relative shadow-inner"
                 animate={{
