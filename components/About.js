@@ -20,7 +20,7 @@ const About = () => {
                   style={{ width: "100%", height: "auto" }}
                 />
                 <div
-                  className="absolute bottom-0 md:relative w-full text-white dark:text-grey-300 p-6 md:text-black text-2xl md:p-8 md:colspan-2 uppercase font-thin">
+                  className="absolute bottom-0 md:relative w-full text-white dark:text-gray-200 p-6 md:text-black text-2xl md:p-8 md:colspan-2 uppercase font-thin">
                   About Me
                 </div>
             </div>
