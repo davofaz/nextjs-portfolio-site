@@ -4,9 +4,12 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { FaExternalLinkSquareAlt } from 'react-icons/fa'
 
-const RecentWork = () => {
+const RecentWork = ({ additionalClasses = '' }) => {
+
+    const gridClasses = `grid grid-cols-3 ${additionalClasses}`
+
     return (
-        <div className="grid grid-cols-3 sm:grid-cols-6 lg:grid-cols-8">            
+        <div className={gridClasses}>            
             <motion.div
                 className="flex row-span-2 col-span-2 relative shadow-inner"
                 animate={{
