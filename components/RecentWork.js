@@ -33,6 +33,31 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             layout='fill'/>
                 </Link>
             </motion.div>
+            <motion.div
+                    className="flex relative"
+                    animate={{
+                    opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
+                    <a href="https://shiningstarmedia.co.uk/" target="_blank" className="flex">
+                        <Image
+                        src="/recent-work-shining-star-media.jpg"
+                        alt="Shining Star Media - Professional Drone, FPV, Virtual Tours, Cinematic Services"
+                        width={200}
+                        height={200} />
+                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
+                    </a>
+                </motion.div>
             
         <motion.div
                     className="flex relative"
@@ -160,6 +185,31 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                         </a>
                 </motion.div>
+                <motion.div
+                    className="flex relative"
+                    animate={{
+                    opacity: 1,
+                    scale:1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
+                    <a href="https://www.rapltd.london/" target="_blank" className="flex">
+                        <Image
+                        src="/recent-work-rap-rapid-applied-protection.jpg"
+                        alt="RAP Ltd - Rapid Applied Protection  - Wordpress Website"
+                        width={200}
+                        height={200} />
+                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
+                    </a>
+                </motion.div>
                
                 <motion.div
                 className="flex"
@@ -282,31 +332,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             layout="fill" />
                         </Link>
                 </motion.div>
-                <motion.div
-                    className="flex relative"
-                    animate={{
-                    opacity: 1,
-                    scale:1
-                }}
-                whileHover={{
-                    scale: 0.95,
-                    opacity: 0.8,
-                    transition: { duration: 0.3 },
-                }}
-                whileTap={{
-                    opacity: 1,
-                    filter: 'brightness(120%)',
-                    scale: 1.1
-                }}>
-                    <a href="https://www.rapltd.london/" target="_blank" className="flex">
-                        <Image
-                        src="/recent-work-rap-rapid-applied-protection.jpg"
-                        alt="RAP Ltd - Rapid Applied Protection  - Wordpress Website"
-                        width={200}
-                        height={200} />
-                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
-                    </a>
-                </motion.div>
+                
                 
                
                 <motion.div
