@@ -9,7 +9,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
     const gridClasses = `grid grid-cols-3 ${additionalClasses}`
 
     return (
-        <div className={gridClasses}>            
+        <div className={gridClasses}>             
             <motion.div
                 className="flex row-span-2 col-span-2 relative shadow-inner"
                 animate={{
