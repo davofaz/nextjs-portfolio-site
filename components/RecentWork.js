@@ -30,7 +30,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         <Image
                             src="/recent-work-noble-black-large.jpg"
                             alt="Noble Black - Private Licenced Drivers website design and development"                         
-                            layout='fill'/>
+                            fill />
                 </Link>
             </motion.div>
             <motion.div
@@ -255,7 +255,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             <Image
                              src="/recent-work-mytasks-app-large.jpg"
                             alt="My Tasks App - Fully working TypeScript App"
-                            layout="fill" />
+                            fill />
                     </Link>
         </motion.div>
                 
@@ -329,7 +329,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             
                             src="/recent-work-kt-app-thumb-large.jpg"
                             alt="KT App - React Native"
-                            layout="fill" />
+                            fill />
                         </Link>
                 </motion.div>
                 
