@@ -31,7 +31,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             src="/recent-work-artsense-google-showcase-large.jpg"
                             alt="Case Study: Artsense"                         
                             fill />
-                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 md:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
+                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
                 </Link>
             </motion.div>
             <motion.div
@@ -55,7 +55,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             src="/recent-work-noble-black-large.jpg"
                             alt="Noble Black - Private Licenced Drivers website design and development"                         
                             fill />
-                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 md:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
+                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
                 </Link>
             </motion.div>
            
@@ -240,7 +240,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 </motion.div>
                
                 <motion.div
-                className="flex"
+                className="flex relative shadow-inner"
                 animate={{
                     opacity: 1,
                     scale:1
@@ -259,8 +259,8 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             <Image
                             src="/recent-work-earthly.jpg"
                             alt="Earthly App - UX/UI Concept"
-                            width={200}
-                            height={200} />
+                            fill />
+                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
 
                     </Link>
                 </motion.div>
@@ -285,6 +285,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                              src="/recent-work-mytasks-app-large.jpg"
                             alt="My Tasks App - Fully working TypeScript App"
                             fill />
+
                     </Link>
         </motion.div>
                 
@@ -314,7 +315,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 </motion.div>
             
                 <motion.div
-                    className="flex"
+                    className="flex relative shadow-inner"
                     animate={{
                     opacity: 1,
                     scale:1
@@ -333,33 +334,9 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         <Image
                         src="/recent-work-fired.jpg"
                         alt="Fired Pizza Vercel Website"
-                        width={200}
-                        height={200} />
-                    </Link>
-                        <motion.div
-                className="flex relative shadow-inner"
-                animate={{
-                    opacity: 1,
-                    scale:1
-                }}
-                whileHover={{
-                    scale: 0.95,
-                    opacity: 0.8,
-                    transition: { duration: 0.3 },
-                }}
-                whileTap={{
-                    opacity: 1,
-                    filter: 'brightness(120%)',
-                    scale: 1.1
-                }}>
-                <Link href="/portfolio/noble-black">
-                        <Image
-                            src="/recent-work-noble-black-large.jpg"
-                            alt="Noble Black - Private Licenced Drivers website design and development"                         
-                            fill />
-                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 md:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
-                </Link>
-            </motion.div>
+                        fill />
+                        <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
+                    </Link>                    
                 </motion.div>
                 <motion.div
                     className="flex relative shadow-inner"
