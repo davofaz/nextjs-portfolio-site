@@ -4,7 +4,8 @@ import Link from 'next/link';
 import FadeIn from '../../components/FadeIn'
 import { fadeInUp } from '../../animations/variants.js'
 import RecentWork from '../../components/RecentWork.js';
-import presentation from '../../public/case-study-artsense-presentation.jpg';
+import lifecycle from '../../public/case-study-product-dev-lifecycle.jpg';
+import presentation from '../../public/case-study-artsense-presentation-6.jpg';
 import goalstatement from '../../public/case-study-goal-statement.jpg';
 import userresearch from '../../public/case-study-user-research-summary.jpg';
 import persona from '../../public/case-study-pesona-1.jpg';
@@ -21,7 +22,7 @@ export default function Artsense() {
             <FadeIn variants={fadeInUp}>
                     <Image
                         src={presentation}
-                        alt="My Tasks App"
+                        alt="Art Sense App Presentation"
                         width={1625}
                         height={1787}
                         layout="responsive"
@@ -31,7 +32,15 @@ export default function Artsense() {
                     <h1 className="mb-4 font-bold">Case Study: Artsense</h1>
                     <p className="mb-4">The goal of this app was to create an inclusive app that helps all users find fun exhibitions and art galleries to visit. The project is ongoing and I will be updating this page as I iterate and improve my designs. Below you can see some of my case study slides including links to my lo-fi and hi-fi prototypes. To see the full study click the link at the bottom of the page.</p>
 
-                    
+                    <Image
+                        src={lifecycle}
+                        alt="UX Product Life Cycle"
+                        width={1625}
+                        height={1787}
+                        layout="responsive"
+                        placeholder="blur"
+                        className="py-10"
+                    />
                     <Image
                         src={userresearch}
                         alt="User Research Summary"
