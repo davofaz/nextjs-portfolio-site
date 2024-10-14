@@ -187,7 +187,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                     </a><FaExternalLinkSquareAlt size={24} className="absolute z-10 text-black right-2 bottom-2 display"/>
                 </motion.div>
                 
-                <motion.div
+                {/*<motion.div
                     className="flex relative"
                     animate={{
                     opacity: 1,
@@ -212,7 +212,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             height={200} />
                             <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                         </a>
-                </motion.div>
+                </motion.div>*/}
                 <motion.div
                     className="flex relative"
                     animate={{
@@ -417,7 +417,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                     </a>
                 </motion.div>
-                <motion.div
+                {/*<motion.div
                 className="flex relative"
                 animate={{
                     opacity: 1,
@@ -466,7 +466,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         height={200} />
                         <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                     </a>
-                </motion.div>
+                </motion.div>*/}
                 
                 <motion.div 
                 className="flex relative"    
