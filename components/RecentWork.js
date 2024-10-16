@@ -10,7 +10,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
 
     return (
         <div className={gridClasses}>     
-        <motion.div
+            <motion.div
                 className="flex relative shadow-inner"
                 animate={{
                     opacity: 1,
@@ -29,8 +29,10 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 <Link href="/portfolio/artsense">
                          <Image
                             src="/recent-work-artsense-google-showcase-large.jpg"
-                            alt="Case Study: Artsense"                         
-                            fill />
+                            alt="Case Study: Artsense"
+                            width={200}
+                            height={200}
+                          />
                             <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
                 </Link>
             </motion.div>
@@ -54,7 +56,9 @@ const RecentWork = ({ additionalClasses = '' }) => {
                     <Image
                         src="/recent-work-kt-donation-app.jpg"
                         alt="Case Study: Online Donation App"
-                        fill />
+                        width={200}
+                        height={200}
+                    />
                     <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
                 </Link>
             </motion.div>
@@ -78,11 +82,13 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         <Image
                             src="/recent-work-noble-black-large.jpg"
                             alt="Noble Black - Private Licenced Drivers website design and development"                         
-                            fill />
+                            width={200}
+                            height={200}
+                    />
                             <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
                 </Link>
             </motion.div>
-           
+           {/* 
             <motion.div
                     className="flex relative"
                     animate={{
@@ -109,7 +115,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                     </a>
                 </motion.div>
             
-        <motion.div
+                <motion.div
                     className="flex relative"
                     animate={{
                     opacity: 1,
@@ -134,7 +140,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                     </a>
                 </motion.div>
-         <motion.div
+            {/*<motion.div
                 className="flex relative"
                 animate={{
                     opacity: 1,
@@ -158,7 +164,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             height={200} />
                             <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/> 
                     </a>
-                </motion.div> 
+                </motion.div>
         <motion.div
                 className="flex relative"
                 animate={{
@@ -184,7 +190,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                     </a>
                 </motion.div>
-                 
+               {/*  
                 <motion.div
                     className="flex relative"
                     animate={{
@@ -211,7 +217,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                     </a><FaExternalLinkSquareAlt size={24} className="absolute z-10 text-black right-2 bottom-2 display"/>
                 </motion.div>
                 
-                {/*<motion.div
+                <motion.div
                     className="flex relative"
                     animate={{
                     opacity: 1,
@@ -236,7 +242,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             height={200} />
                             <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                         </a>
-                </motion.div>*/}
+                </motion.div>
                 <motion.div
                     className="flex relative"
                     animate={{
@@ -389,7 +395,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 
                 
                
-                <motion.div
+                {/*<motion.div
                     className="flex relative"
                     animate={{
                     opacity: 1,
@@ -441,7 +447,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                     </a>
                 </motion.div>
-                {/*<motion.div
+                <motion.div
                 className="flex relative"
                 animate={{
                     opacity: 1,
@@ -490,7 +496,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         height={200} />
                         <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                     </a>
-                </motion.div>*/}
+                </motion.div>
                 
                 <motion.div 
                 className="flex relative"    
@@ -516,7 +522,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         height={200} />
                         <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                      </a>
-                </motion.div>
+                </motion.div>*/}
             
             <Link href="/portfolio/">
                
