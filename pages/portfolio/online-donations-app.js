@@ -25,7 +25,7 @@ export default function OnlineDonations() {
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
                 
                             <div className="col-span-1 md:col-span-2 lg:pt-10">
-                                 <p className="mb-8 mr-4 md:pt-2">I wanted to revisit one of my previous jobs where I brought some improvements to an online donation page for Kensington Temple (A UK based charity).</p><p>A php page with 3 steps using Bootstrap for the frontend connecting to payment portal and sending the user back to the receipt page. Below you will see the changes I made. Finally my design how I would update it today an explain my decision making.</p> 
+                                <p className="mb-8 mr-4 md:pt-2">I revisited a previous project where I improved an online donation page for Kensington Temple, a UK-based charity. The original page was a PHP application with three steps, using Bootstrap for the frontend, connecting to a payment portal, and redirecting users to a receipt page.</p><p>Below, you'll see the changes I made and my design approach for updating the page today, along with explanations of my decisions.</p> 
                              </div>
 
                             <div className="col-span-1 md:col-span-3 md:ml-4 lg:ml-10 py-4">                
@@ -44,12 +44,12 @@ export default function OnlineDonations() {
 
                                                 <div className="md:pt-2">
                                                     <ul className="md:mt-2 divide-y divide-slate-300">
-                                                        <li className="py-2">Priming the user with the heading "Donate to KT"</li>
-                                                        <li className="py-2">Background image overlay to match homepage colors and increase the weight of the form.</li>
-                                                        <li className="py-2">Bootstrap colours and spacing.</li>
-                                                        <li className="py-2">Amount and currency inline  - cleaner</li>
+                                                        <li className="py-2">Added the heading "Donate to KT" to prime the user.</li>
+                                                        <li className="py-2">Utilized Bootstrap colors and spacing.</li>
+                                                        <li className="py-2">Aligned amount and currency fields inline for a cleaner look.</li>
+                                                        <li className="py-2">Used fieldsets to group related items.</li>
                                                         <li className="py-2">Fieldsets used to group similar items</li>
-                                                        <li className="py-2">Form Field tool tips</li>
+                                                        <li className="py-2">FAdded tooltips to form fields for better guidance.</li>
                                                     </ul>
                                                  </div>
 
@@ -69,40 +69,40 @@ export default function OnlineDonations() {
                                     <div className="md:pt-2">
                                         <h2 className="text-2xl mb-4">Here's how I would update this page for 2024/25. </h2>
                                         <ul className="md:mt-2 divide-y divide-slate-300">
-                                            <li className="py-2">60-30-10 colour rule used to emphasize visual hierachy and create a more accessible design using high contrast colours.</li>
-                                            <li className="py-2">Subtle 'sticky' navigation/progress bar showing 'Home, Confirm, Receipt' To show the user where they were in the process.</li>
-                                            <li className="py-2">Highlight and increase the visual weight of the Gift Aid section as this brings in alot for the organisation.</li>
-                                            <li className="py-2">Removed the distractions - background image and overlays for a clean well spaced design.</li>
+                                            <li className="py-2">Applied the 60-30-10 color rule to emphasize visual hierarchy and create a more accessible design with high contrast colors.</li>
+                                            <li className="py-2">Introduced a subtle 'sticky' navigation/progress bar showing 'Home, Confirm, Receipt' to indicate the user's progress.</li>
+                                            <li className="py-2">Highlighted and increased the visual weight of the Gift Aid section, as it significantly benefits the organization.</li>
+                                            <li className="py-2">Removed distractions such as background images and overlays for a clean, well-spaced design.</li>
                                             <li><Image
                                                 src={detail1}
-                                                alt="Detail 1 - Clearer amount input fields"
+                                                alt="Detail 1: Enhanced the clarity of amount input fields."
                                                 placeholder="blur"
                                                 className="py-10 object-fill"
                                             /></li>
-                                            <li className="py-2">The use of uniform negative space to create visual harmony and clarity. Figma auto layout with 30px 20px 40px 20px padding on all sections.</li>
-                                            <li className="py-2">Larger contrast between heading and normal text.</li>
+                                            <li className="py-2">Used uniform negative space to create visual harmony and clarity, with Figma auto layout padding of 30px, 20px, 40px, and 20px in all sections.</li>
+                                            <li className="py-2">Increased the contrast between headings and regular text.</li>
                                             <li><Image
                                                 src={detail2}
-                                                alt="Detail 2 - Clean input fields"
+                                                alt="Detail 2: Improved the cleanliness of input fields."
                                                 placeholder="blur"
                                                 className="py-10 object-fill"
                                             /></li>
-                                            <li className="py-2">Gestalt principles of common region, similarity and proximity to clearly define each section and function.</li>
+                                            <li className="py-2">Applied Gestalt principles of common region, similarity, and proximity to clearly define each section and function.</li>
                                             <li><Image
                                                 src={detail3}
-                                                alt="Detail 3 - Radio Buttons"
+                                                alt="Detail 3: Enhanced the design of radio buttons."
                                                 placeholder="blur"
                                                 className="py-10 object-fill"
                                             /></li>
-                                            <li className="py-2">High contrast CTA button with a shadow used for the Next button to direct the user clearly to the next page.</li>
-                                            <li className="py-2">The design's colour palette and typeface could easily be changed and used for another purpose/organisation.</li>
+                                            <li className="py-2">Utilized a high-contrast CTA button with a shadow to clearly direct users to the next page.</li>
+                                            <li className="py-2">Designed the color palette and typeface to be easily adaptable for other purposes or organizations.</li>
                                             <li><Image
                                                 src={detail4}
-                                                alt="Detail 4 - Grid System"
+                                                alt="Detail 4: Implemented the Material Design grid system for uniform structure and balance of elements, aiding responsive design."
                                                 placeholder="blur"
                                                 className="py-10 object-fill"
                                             /></li>
-                                            <li className="py-2">Used the Material Design grid system for uniform structure and balance of elements and willl be helpful for responsive design.</li>
+                                            <li className="py-2">Implemented the Material Design grid system for uniform structure and balance of elements, aiding responsive design.</li>
 
                                         </ul>
                                         
