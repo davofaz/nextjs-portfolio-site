@@ -38,6 +38,30 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 className="flex relative shadow-inner"
                 animate={{
                     opacity: 1,
+                    scale: 1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 },
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
+                <Link href="/portfolio/online-donations-app">
+                    <Image
+                        src="/recent-work-kt-donation-app.jpg"
+                        alt="Case Study: Online Donation App"
+                        fill />
+                    <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
+                </Link>
+            </motion.div>
+            <motion.div
+                className="flex relative shadow-inner"
+                animate={{
+                    opacity: 1,
                     scale:1
                 }}
                 whileHover={{
