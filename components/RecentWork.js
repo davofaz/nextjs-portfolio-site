@@ -33,7 +33,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             width={200}
                             height={200}
                           />
-                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
+                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Arts & Culture App</h4>
                 </Link>
             </motion.div>
             <motion.div
@@ -59,7 +59,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         width={200}
                         height={200}
                     />
-                    <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
+                    <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Input form redesign</h4>
                 </Link>
             </motion.div>
             <motion.div
@@ -85,7 +85,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             width={200}
                             height={200}
                     />
-                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs lg:text-lg">Case Study</h4>
+                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Responsive website</h4>
                 </Link>
             </motion.div>
            {/* 
@@ -526,7 +526,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
             
             <Link href="/portfolio/">
                
-                        <h3 className="text-grey-900 text-2xl p-2 md:p-4 uppercase font-thin dark:text-gray-300"> Recent Work</h3>
+                        <h3 className="text-grey-900 text-2xl p-2 md:p-4 uppercase font-thin dark:text-gray-300">Projects</h3>
               
             </Link>
           </div>

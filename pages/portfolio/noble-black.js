@@ -22,7 +22,9 @@ export default function NobleBlack() {
                     />
                 <div className="text-cyan-950 dark:text-cyan-700 mt-4 p-6 md:p-12 leading-relaxed">
                     <h1 className="mb-4 font-bold">Noble Black</h1>
-                    <p className="mb-4">A new project I am working on. I designed the logo and interface in Figma and build the website using wordpress and Divi. The focus was on its design being mobile first. My client didnt want log scrolling webpages so I designed it like a web app.</p>
+                        <p className="mb-4">I recently completed a project where I designed the logo and interface in Figma and built the website using WordPress and Divi. The focus was on creating a mobile-first design. My client preferred shorter pages over long scrolling ones, so I designed it to function like a web app.
+
+</p>
                          <Link
                             href="https://noble-black.com"
                             passHref={true}
