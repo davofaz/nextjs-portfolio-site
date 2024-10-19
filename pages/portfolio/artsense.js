@@ -4,6 +4,7 @@ import Link from 'next/link';
 import FadeIn from '../../components/FadeIn'
 import { fadeInUp } from '../../animations/variants.js'
 import RecentWork from '../../components/RecentWork.js';
+import designSystem from '../../public/case-study-artsense-sticker-sheet.jpg';
 import lifecycle from '../../public/case-study-product-dev-lifecycle.jpg';
 import presentationHome from '../../public/case-study-artsense-home.png';
 import presentationEvent from '../../public/case-study-artsense-event-page.png';
@@ -93,7 +94,15 @@ export default function Artsense() {
                     </div>
                 </div>
 
-            </div>
+                        </div>
+                        <h2 className="text-2xl mt-12">Design System</h2>
+                        <Image
+                            src={designSystem}
+                            alt="Art Sense - Design System"
+                            layout="fit"
+                            placeholder="blur"
+                            className="py-10"
+                        />
             <p className="my-8">The project is a work in progress, and I will continuously update this page as I refine and enhance my designs. Below, you will find some of my case study slides, along with links to my low-fidelity and high-fidelity prototypes. To view the complete study, please click the link at the bottom of the page.</p>
             <h2 className="text-2xl">Product Development Life Cycle</h2>
                     <Image
