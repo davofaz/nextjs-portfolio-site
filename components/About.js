@@ -38,7 +38,7 @@ const About = () => {
                   </button>
             </div>
 
-                <div className="grid md:grid-cols-3 p-6 col-span-2">
+                <div className="grid md:grid-cols-3 p-6 col-span-3">
                     <h2
                         className="col-span-3 dark:text-gray-200 pb-6 md:text-black text-2xl uppercase font-thin">
                         Skills
