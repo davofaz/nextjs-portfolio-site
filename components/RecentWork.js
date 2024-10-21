@@ -577,11 +577,10 @@ const RecentWork = ({ additionalClasses = '' }) => {
                      </a>
                 </motion.div>*/}
             
-            <Link href="/portfolio/">
                
                         <h3 className="text-grey-900 text-2xl p-2 md:p-4 uppercase font-thin dark:text-gray-300">Projects</h3>
               
-            </Link>
+            
           </div>
     )
 }
