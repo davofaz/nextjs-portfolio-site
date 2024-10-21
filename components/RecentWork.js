@@ -11,7 +11,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
     return (
         <div className={gridClasses}>     
             <motion.div
-                className="flex relative shadow-inner"
+                className="flex relative shadow-xl"
                 animate={{
                     opacity: 1,
                     scale:1
@@ -19,7 +19,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 whileHover={{
                     scale: 0.95,
                     opacity: 0.8,
-                    transition: { duration: 0.3 },
+                    transition: { duration: 0.3 }
                 }}
                 whileTap={{
                     opacity: 1,
@@ -37,7 +37,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 </Link>
             </motion.div>
             <motion.div
-                className="flex relative shadow-inner"
+                className="flex relative shadow-xl"
                 animate={{
                     opacity: 1,
                     scale: 1
@@ -45,7 +45,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 whileHover={{
                     scale: 0.95,
                     opacity: 0.8,
-                    transition: { duration: 0.3 },
+                    transition: { duration: 0.3 }
                 }}
                 whileTap={{
                     opacity: 1,
@@ -63,7 +63,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 </Link>
             </motion.div>
             <motion.div
-                className="flex relative shadow-inner"
+                className="flex relative shadow-xl"
                 animate={{
                     opacity: 1,
                     scale:1
@@ -71,7 +71,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 whileHover={{
                     scale: 0.95,
                     opacity: 0.8,
-                    transition: { duration: 0.3 },
+                    transition: { duration: 0.3 }
                 }}
                 whileTap={{
                     opacity: 1,
@@ -88,8 +88,61 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Responsive website</h4>
                 </Link>
             </motion.div>
-           {/* 
             <motion.div
+                className="flex relative shadow-xl"
+                animate={{
+                    opacity: 1,
+                    scale: 1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 }
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
+                <Link href="/portfolio/my-task-app">
+                    <Image
+                        src="/recent-work-mytasks-app-large.jpg"
+                        alt="My Tasks App - Fully working TypeScript App"
+                        width={200}
+                        height={200}
+                    />
+                    <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">React App</h4>
+                </Link>
+            </motion.div>
+            <motion.div
+                className="flex relative shadow-xl"
+                animate={{
+                    opacity: 1,
+                    scale: 1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 }
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
+                <Link href="/portfolio/kt-app">
+                    <Image
+
+                        src="/recent-work-kt-app-thumb-large.jpg"
+                        alt="KT App - React Native"
+                        width={200}
+                        height={200}
+                    />
+                    <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">React Native</h4>
+                </Link>
+            </motion.div>
+            
+            {/*<motion.div
                     className="flex relative"
                     animate={{
                     opacity: 1,
@@ -111,8 +164,8 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         alt="Shining Star Media - Professional Drone, FPV, Virtual Tours, Cinematic Services"
                         width={200}
                         height={200} />
-                        <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
-                    </a>
+                     <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">WordPress</h4>
+                </a>
                 </motion.div>
             
                 <motion.div

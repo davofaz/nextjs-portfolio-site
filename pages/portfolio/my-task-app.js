@@ -34,6 +34,6 @@ export default function MyTasksApp() {
                     </div>
                 </FadeIn>
                 </div>
-                    <div className="basis-2/6"><RecentWork /></div>
+            <div className="basis-2/6 md:opacity-60"><RecentWork /></div>
         </main>
 )}
