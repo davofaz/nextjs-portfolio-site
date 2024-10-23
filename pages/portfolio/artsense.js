@@ -6,6 +6,7 @@ import { fadeInUp } from '../../animations/variants.js'
 import RecentWork from '../../components/RecentWork.js';
 import designSystem from '../../public/case-study-artsense-sticker-sheet.jpg';
 import lifecycle from '../../public/case-study-product-dev-lifecycle.jpg';
+import thumbnail from '../../public/case-study-artsense-thumbnail.jpg';
 import presentationHome from '../../public/case-study-artsense-home.png';
 import presentationEvent from '../../public/case-study-artsense-event-page.png';
 import goalstatement from '../../public/case-study-goal-statement.jpg';
@@ -22,8 +23,16 @@ export default function Artsense() {
         <main className="flex flex-col flex-row-reverse sm:flex-row lg:mx-auto" style={{maxWidth:'1400px'}}>
          <div className="basis-4/6 flex flex-col bg-amber-200">
             <FadeIn variants={fadeInUp}>
-                                  
-                <div className="text-black dark:text-black mt-4 p-6 lg:p-12">
+                     <Image
+                            src={thumbnail}
+                            alt="Art Sense App Hero"
+                            layout="fit"
+                            placeholder="blur"
+                            className="pb-10"
+                        />             
+                    <div className="text-black dark:text-black mt-4 p-6 lg:p-12">
+                        
+
                     <h1 className="mb-4 text-4xl">Artsense</h1>
                     <p className="mb-8">This case study was developed during my study in the Google Professional UX Design Certificate. The aim of this app was to develop an inclusive and accessible platform that enables all users to discover and book enjoyable exhibitions and art galleries tailored to their preferences and interests, while also enhancing their learning experience during the event.</p> 
 
@@ -194,8 +203,10 @@ export default function Artsense() {
                         placeholder="blur"
                         className="py-10"
                     />
-                    </a>
-                    
+                        </a>
+                        <div className="mx-auto py-12">
+                            <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} width="100%" height="700" src="https://embed.figma.com/proto/EOZd3EH040p272qdAd5LvR/Museum-App?page-id=140%3A39&node-id=425-2489&node-type=canvas&viewport=2230%2C30%2C0.49&scaling=scale-down&content-scaling=fixed&starting-point-node-id=425%3A2415&embed-host=share" allowFullScreen></iframe>
+                        </div>
                          <a
                             href="https://docs.google.com/presentation/d/1FxPDB99lvlW5zPMV7yz8NfdcoOCRSQ71ICNLTBE-_xI/edit#slide=id.gced80ebc1c_0_72"
                             target="_blank"
