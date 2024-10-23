@@ -7,6 +7,7 @@ import RecentWork from '../../components/RecentWork.js';
 import before from '../../public/online-giving-before-2.png';
 import versiontwo from '../../public/online-giving-v2.png';
 import versionthree from '../../public/online-giving-v3-hifi-mockup.png';
+import palette from '../../public/case-study-online-donations-palette.png';
 import detail1 from '../../public/detailed-amount-input-2.png';
 import detail2 from '../../public/detailed-personal-information-input.png';
 import detail3 from '../../public/detailed-selection-radio-buttons.png';
@@ -69,7 +70,13 @@ export default function OnlineDonations() {
                                     <div className="md:pt-2">
                                         <h2 className="text-2xl mb-4">Here's how I would update this page for 2024/25. </h2>
                                         <ul className="md:mt-2 divide-y divide-slate-300">
-                                            <li className="py-2">Applied the 60-30-10 color rule to emphasize visual hierarchy and create a more accessible design with high contrast colors.</li>
+                                           
+                                            <li className="py-2"> <Image
+                                                src={palette}
+                                                alt="Colour Palette"
+                                                placeholder="blur"
+                                                className="py-10 object-fill"
+                                            />Applied the 60-30-10 color rule to emphasize visual hierarchy and create a more accessible design with high contrast colors.</li>
                                             <li className="py-2">Introduced a subtle 'sticky' navigation/progress bar showing 'Home, Confirm, Receipt' to indicate the user's progress.</li>
                                             <li className="py-2">Highlighted and increased the visual weight of the Gift Aid section, as it significantly benefits the organization.</li>
                                             <li className="py-2">Removed distractions such as background images and overlays for a clean, well-spaced design.</li>
