@@ -125,11 +125,12 @@ export default function OnlineDonations() {
                                     placeholder="blur"
                                     className="py-10 object-fill"
                                 />
-
-                                
-
-                            </div>
+ </div>
                            
+                        </div>
+                        <div className="mx-auto py-12">
+                            <h2 className="text-2xl mb-4">Prototype</h2>
+                            <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} width="100%" height="700" src="https://embed.figma.com/proto/GRCr2ORAUKMZTOMaweigWXQU/gifts-rework?page-id=149%3A98&node-id=162-537&node-type=canvas&viewport=543%2C609%2C0.41&scaling=scale-down&content-scaling=fixed&embed-host=share" allowFullScreen></iframe>
                         </div>
                         <a
                             href="https://www.figma.com/proto/GRCr2ORAUKMZTOMaweigWXQU/gifts-rework?page-id=149%3A98&node-id=162-537&node-type=canvas&viewport=269%2C-199%2C0.78&t=yyYjCMYpceGtGE2l-1&scaling=scale-down&content-scaling=fixed"
