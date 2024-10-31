@@ -1,4 +1,5 @@
 import React from "react"
+import Head from 'next/head'
 import Image from 'next/image'
 import RecentWork from '../../components/RecentWork.js'
 import FadeIn from '../../components/FadeIn'
@@ -7,8 +8,13 @@ import presentation from '../../public/kt-app-presentation3.jpg'
 
 export default function KTApp() {
     return (
-        <main className="flex flex-col flex-row-reverse sm:flex-row lg:mx-auto" style={{maxWidth:'1400px'}}>           
-        <div className="basis-4/6 flex flex-col" style={{background:'#6A8885'}}>
+         <>
+            <Head>
+                <title>David Fazaldin - UX/UI Designer &amp; Front End Dev - Figma, NextJs, Wordpress, Shopify, Wix </title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            <main className="flex flex-col flex-row-reverse sm:flex-row lg:mx-auto" style={{maxWidth:'1400px'}}>           
+                <div className="basis-4/6 flex flex-col  bg-yellow-100">
             <FadeIn variants={fadeInUp}>
                 <Image
                     src={presentation}
@@ -18,7 +24,7 @@ export default function KTApp() {
                     layout="responsive"
                     placeholder="blur"
                         />
-                <div className="text-white dark:text-gray-200 mt-4 p-6 md:p-12 leading-relaxed">
+                <div className="dark:text-gray-200 mt-4 p-6 md:p-12 leading-relaxed">
                     <h1 className="mb-4 font-bold">KT App</h1>
                     <p className="mb-4">I designed in Figma and built this React Native app using the <a href="https://expo.dev/" target="_blank">Expo framework</a>. 
                     The purpose of the app was to allow users to find the latest sermons, live video, posts and contact information and donate via a simple interface instead of searching through the website which had 1000s of pages and posts.</p>
@@ -29,7 +35,7 @@ export default function KTApp() {
            </div>
             <div className="basis-2/6 md:opacity-60"><RecentWork /></div>
         </main>
-    
+    </>
     
     )
 }

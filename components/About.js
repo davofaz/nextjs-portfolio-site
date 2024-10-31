@@ -23,10 +23,10 @@ const About = () => {
             </div>
                    
             <div className="col-span-2 md:col-span-2 p-6 md:pt-0 text-justify dark:text-gray-400">
-                <h2
+                <h1
                     className="dark:text-gray-200 md:text-black text-2xl pb-4 uppercase font-thin">
                   About
-                </h2>
+                </h1>
           
                   <p className="pb-6">Hi, I'm David, a London-based designer with a passion for crafting digital experiences. My journey began with a foundation year at Chelsea Art School, leading me to explore Graphic Design & Advertising. Surprisingly, it was web design that truly captivated me, a fascination that has endured for over two decades.</p>
                   <p className="pb-6">Today, I proudly freelance full-time in the realms of UX/UI and Front-End Development. With a diverse background spanning Charity, Media, and Education, I hold a deep commitment to creating accessible and inclusive digital solutions.</p>
@@ -39,31 +39,30 @@ const About = () => {
             </div>
 
                 <div className="grid md:grid-cols-3 p-6 col-span-3">
-                    <h2
+                    <h1
                         className="col-span-3 dark:text-gray-200 pb-6 md:text-black text-2xl uppercase font-thin">
                         Skills
-                    </h2>
+                    </h1>
                     <div className="col-span-3 md:col-span-1 pb-2">
-                        <h3 className="font-bold py-2">UX</h3>
+                        <h2 className="font-bold py-2">UX</h2>
                             <ul>
                                 <li>Rapid Sketching</li>
                                 <li>Prototyping</li>
                                 <li>Wireframing</li>
                                 <li>Design Systems/Patterns</li>
                                 <li>Design Thinking</li>
-                                <l>Problem Solving</l>
+                                <li>Problem Solving</li>
                                 <li>Responsive Design</li>
                                 <li>Art Direction</li>
                                 <li>Illustration</li>
                                 <li>User-Centered Design</li>
                                 <li>User Research</li>
-                                <li>UsabilityTesting</li>
-                                  
+                                <li>UsabilityTesting</li>                                  
                                 <li>Motion Design</li>
                          </ul>
                     </div>
                     <div className="col-span-3 md:col-span-1  py-2">
-                        <h3 className="font-bold pb-2">FrontEnd</h3>
+                        <h2 className="font-bold pb-2">FrontEnd</h2>
                         <ul><li>HTML</li>
                             <li>CSS</li>
                             <li>GitHub</li>
@@ -89,7 +88,7 @@ const About = () => {
                         </ul>
                     </div>
                     <div className="col-span-3 md:col-span-1  py-2">
-                        <h3 className="font-bold pb-2">Design</h3>
+                        <h2 className="font-bold pb-2">Design</h2>
                         <ul>
                             <li>Art & Illustration</li>
                             <li>Branding</li>

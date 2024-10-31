@@ -1,4 +1,5 @@
 import React from "react";
+import Head from 'next/head'
 import Image from 'next/image';
 import Link from 'next/link';
 import FadeIn from '../../components/FadeIn'
@@ -9,6 +10,11 @@ import presentation2 from '../../public/recent-work-noble-black-desktop-presenta
 
 export default function NobleBlack() {
     return (
+         <>
+            <Head>
+                <title>David Fazaldin - UX/UI Designer &amp; Front End Dev - Figma, NextJs, Wordpress, Shopify, Wix </title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
         <main className="flex flex-col flex-row-reverse sm:flex-row lg:mx-auto" style={{maxWidth:'1400px'}}>
          <div className="basis-4/6 flex flex-col" style={{background:'#75c8eb'}}>
             <FadeIn variants={fadeInUp}>
@@ -28,7 +34,7 @@ export default function NobleBlack() {
                          <Link
                             href="https://noble-black.com"
                             passHref={true}
-                            ><button className="inline-flex rounded-lg p-2 bg-cyan-600 text-white dark:text-cyan-200"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            ><button className="inline-flex rounded-lg p-2 bg-cyan-100 dark:text-cyan-200"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                           </svg>  https://noble-black.com</button>
                          </Link>
@@ -45,5 +51,6 @@ export default function NobleBlack() {
                 </FadeIn>
             </div>
             <div className="basis-2/6 md:opacity-60"><RecentWork /></div>
-        </main>
+            </main>
+    </>
 )}
