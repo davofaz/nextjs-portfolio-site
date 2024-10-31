@@ -1,4 +1,5 @@
 import React from "react";
+import Head from 'next/head'
 import Image from 'next/image';
 import Link from 'next/link';
 import FadeIn from '../../components/FadeIn'
@@ -15,6 +16,11 @@ import detail4 from '../../public/detailed-column-layout-2.png';
 
 export default function OnlineDonations() {
     return (
+         <>
+            <Head>
+                <title>David Fazaldin - UX/UI Designer &amp; Front End Dev - Figma, NextJs, Wordpress, Shopify, Wix </title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
         <main className="flex flex-col flex-row-reverse sm:flex-row lg:mx-auto" style={{maxWidth:'1400px'}}>
             <div className="basis-4/6 flex flex-col bg-lime-100">
             <FadeIn variants={fadeInUp}>
@@ -130,7 +136,7 @@ export default function OnlineDonations() {
                         </div>
                         <div className="mx-auto py-12">
                             <h2 className="text-2xl mb-4">Prototype</h2>
-                            <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} width="100%" height="700" src="https://embed.figma.com/proto/GRCr2ORAUKMZTOMaweigWXQU/gifts-rework?page-id=149%3A98&node-id=162-537&node-type=canvas&viewport=543%2C609%2C0.41&scaling=scale-down&content-scaling=fixed&embed-host=share" allowFullScreen></iframe>
+                            <iframe title="Donations App - Hi-Fi Prototype" style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} width="100%" height="700" src="https://embed.figma.com/proto/GRCr2ORAUKMZTOMaweigWXQU/gifts-rework?page-id=149%3A98&node-id=162-537&node-type=canvas&viewport=543%2C609%2C0.41&scaling=scale-down&content-scaling=fixed&embed-host=share" allowFullScreen></iframe>
                         </div>
                         <a
                             href="https://www.figma.com/proto/GRCr2ORAUKMZTOMaweigWXQU/gifts-rework?page-id=149%3A98&node-id=162-537&node-type=canvas&viewport=269%2C-199%2C0.78&t=yyYjCMYpceGtGE2l-1&scaling=scale-down&content-scaling=fixed"
@@ -143,5 +149,6 @@ export default function OnlineDonations() {
                 </FadeIn>
             </div>
             <div className="basis-2/6 md:opacity-60"><RecentWork /></div>
-        </main>
+            </main>
+        </>
 )}

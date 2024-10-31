@@ -9,7 +9,25 @@ const RecentWork = ({ additionalClasses = '' }) => {
     const gridClasses = `grid grid-cols-3 ${additionalClasses}`
 
     return (
-        <div className={gridClasses}>     
+        <div className={gridClasses}>
+            <motion.div
+                className="flex relative"
+                animate={{
+                    opacity: 1,
+                    scale: 1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 }
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
+                <h1 className="text-grey-900 text-2xl p-2 md:p-4 uppercase font-thin dark:text-gray-300">Projects</h1>
+            </motion.div>
             <motion.div
                 className="flex relative shadow-xl"
                 animate={{
@@ -33,7 +51,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             width={200}
                             height={200}
                           />
-                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Arts & Culture App</h4>
+                            <h2 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Arts & Culture App</h2>
                 </Link>
             </motion.div>
             <motion.div
@@ -59,7 +77,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         width={200}
                         height={200}
                     />
-                    <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Input form redesign</h4>
+                    <h2 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Input form redesign</h2>
                 </Link>
             </motion.div>
             <motion.div
@@ -85,7 +103,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             width={200}
                             height={200}
                     />
-                            <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Responsive website</h4>
+                            <h2 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Responsive website</h2>
                 </Link>
             </motion.div>
             <motion.div
@@ -111,7 +129,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         width={200}
                         height={200}
                     />
-                    <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">React App</h4>
+                    <h2 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">React App</h2>
                 </Link>
             </motion.div>
             <motion.div
@@ -138,7 +156,7 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         width={200}
                         height={200}
                     />
-                    <h4 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">React Native</h4>
+                    <h2 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">React Native</h2>
                 </Link>
             </motion.div>
             
@@ -576,10 +594,6 @@ const RecentWork = ({ additionalClasses = '' }) => {
                         <FaExternalLinkSquareAlt size={24} className="absolute z-10 text-white right-2 bottom-2"/>
                      </a>
                 </motion.div>*/}
-            
-               
-                        <h3 className="text-grey-900 text-2xl p-2 md:p-4 uppercase font-thin dark:text-gray-300">Projects</h3>
-              
             
           </div>
     )

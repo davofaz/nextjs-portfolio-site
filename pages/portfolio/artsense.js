@@ -1,4 +1,5 @@
 import React from "react";
+import Head from 'next/head'
 import Image from 'next/image';
 import Link from 'next/link';
 import FadeIn from '../../components/FadeIn'
@@ -20,8 +21,13 @@ import hifiprototype from '../../public/case-study-hi-fi-prototype.jpg';
 
 export default function Artsense() {
     return (
+        <>
+        <Head>
+            <title>David Fazaldin - UX/UI Designer &amp; Front End Dev - Figma, NextJs, Wordpress, Shopify, Wix </title>
+            <link rel="icon" href="/favicon.ico" />
+        </Head>
         <main className="flex flex-col flex-row-reverse sm:flex-row lg:mx-auto" style={{maxWidth:'1400px'}}>
-         <div className="basis-4/6 flex flex-col bg-amber-200">
+         <div className="basis-4/6 flex flex-col bg-amber-100">
             <FadeIn variants={fadeInUp}>
                      <Image
                             src={thumbnail}
@@ -209,12 +215,12 @@ export default function Artsense() {
 
                         </div>
                         <div className="mx-auto py-12">
-                            <iframe style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} width="100%" height="700" src="https://embed.figma.com/proto/EOZd3EH040p272qdAd5LvR/Museum-App?page-id=140%3A39&node-id=425-2489&node-type=canvas&viewport=2230%2C30%2C0.49&scaling=scale-down&content-scaling=fixed&starting-point-node-id=425%3A2415&embed-host=share" allowFullScreen></iframe>
+                            <iframe title="Artsense Hi-Fi Prototype" style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }} width="100%" height="700" src="https://embed.figma.com/proto/EOZd3EH040p272qdAd5LvR/Museum-App?page-id=140%3A39&node-id=425-2489&node-type=canvas&viewport=2230%2C30%2C0.49&scaling=scale-down&content-scaling=fixed&starting-point-node-id=425%3A2415&embed-host=share" allowFullScreen></iframe>
                         </div>
                          <a
                             href="https://docs.google.com/presentation/d/1FxPDB99lvlW5zPMV7yz8NfdcoOCRSQ71ICNLTBE-_xI/edit#slide=id.gced80ebc1c_0_72"
                             target="_blank"
-                            ><button className="inline-flex rounded-lg p-2 bg-amber-600 text-white dark:text-amber-200"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            ><button className="inline-flex rounded-lg p-2 bg-amber-400 dark:text-amber-200 px-6"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                           </svg> &nbsp;Click to view my full case study</button>
                          </a>
@@ -223,5 +229,7 @@ export default function Artsense() {
                 </FadeIn>
             </div>
             <div className="basis-2/6 md:opacity-60"><RecentWork /></div>
-        </main>
+            </main>
+
+        </>
 )}

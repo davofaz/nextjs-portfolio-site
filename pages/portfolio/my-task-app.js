@@ -1,4 +1,5 @@
 import React from "react";
+import Head from 'next/head'
 import Image from 'next/image';
 import Link from 'next/link';
 import { fadeInUp } from '../../animations/variants.js'
@@ -9,6 +10,11 @@ import presentation from '../../public/recent-work-mytasks-app-presentation.jpg'
 
 export default function MyTasksApp() {
     return (
+         <>
+            <Head>
+                <title>David Fazaldin - UX/UI Designer &amp; Front End Dev - Figma, NextJs, Wordpress, Shopify, Wix </title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
        <main className="flex flex-col flex-row-reverse sm:flex-row lg:mx-auto" style={{maxWidth:'1400px'}}>
              <div className="basis-4/6 flex flex-col" style={{background:'#86CBDA'}}>
                 <FadeIn variants={fadeInUp}>
@@ -28,12 +34,13 @@ export default function MyTasksApp() {
                         <Link
                             href="https://davofaz.github.io/todo-app/"
                             passHref={true}
-                        ><button className="inline-flex rounded-lg p-2 bg-cyan-600 text-white dark:text-cyan-200"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        ><button className="inline-flex rounded-lg p-2 px-6 bg-cyan-200 dark:text-cyan-200"><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                        </svg>  https://davofaz.github.io/todo-app/</button></Link>
+                        </svg>  Try out my todo app</button></Link>
                     </div>
                 </FadeIn>
                 </div>
             <div className="basis-2/6 md:opacity-60"><RecentWork /></div>
-        </main>
+            </main>
+        </>
 )}
