@@ -21,7 +21,6 @@ export default function KTApp() {
                     alt="KT APP Presentation"
                     width={1024}
                     height={1366}
-                    layout="responsive"
                     placeholder="blur"
                         />
                 <div className="dark:text-gray-200 mt-4 p-6 md:p-12 leading-relaxed">

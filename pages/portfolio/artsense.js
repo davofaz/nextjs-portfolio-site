@@ -31,8 +31,7 @@ export default function Artsense() {
             <FadeIn variants={fadeInUp}>
                      <Image
                             src={thumbnail}
-                            alt="Art Sense App Hero - Your arts and culture curator "
-                            layout="fit"
+                            alt="Art Sense App Hero - Your arts and culture curator"
                             placeholder="blur"
                             className="pb-10"
                         />             
@@ -45,7 +44,6 @@ export default function Artsense() {
                         <Image
                             src={designSystem}
                             alt="Art Sense - Design System"
-                            layout="fit"
                             placeholder="blur"
                             className="py-10"
                         />
@@ -58,7 +56,6 @@ export default function Artsense() {
                         alt="UX Product Life Cycle"
                         width={1625}
                         height={1787}
-                        layout="responsive"
                         placeholder="blur"
                         className="py-10"
                     />
@@ -69,7 +66,6 @@ export default function Artsense() {
                         alt="User Research Summary"
                         width={1625}
                         height={1787}
-                        layout="responsive"
                         placeholder="blur"
                         className="py-10"
                     />
@@ -78,7 +74,6 @@ export default function Artsense() {
                         alt="User Research Summary"
                         width={1625}
                         height={1787}
-                        layout="responsive"
                         placeholder="blur"
                         className="py-10"
                     />
@@ -87,7 +82,6 @@ export default function Artsense() {
                         alt="User Journey Map"
                         width={1625}
                         height={1787}
-                        layout="responsive"
                         placeholder="blur"
                         className="py-10"
                     />
@@ -96,7 +90,6 @@ export default function Artsense() {
                         alt="Goal Statement"
                         width={1625}
                         height={1787}
-                        layout="responsive"
                         placeholder="blur"
                         className="py-10"
                     />
@@ -106,7 +99,6 @@ export default function Artsense() {
                         alt="Paper Wireframe"
                         width={1625}
                         height={1787}
-                        layout="responsive"
                         placeholder="blur"
                         className="py-10"
                     />
@@ -116,7 +108,6 @@ export default function Artsense() {
                         alt="Lo-Fi Prototype"
                         width={1625}
                         height={1787}
-                        layout="responsive"
                         placeholder="blur"
                         className="py-10"
                     />
@@ -127,7 +118,6 @@ export default function Artsense() {
                         alt="Accessibility Considerations"
                         width={1625}
                         height={1787}
-                        layout="responsive"
                         placeholder="blur"
                         className="py-10"
                     />
@@ -138,7 +128,6 @@ export default function Artsense() {
                         alt="Hi-Fi Prototype"
                         width={1625}
                         height={1787}
-                        layout="responsive"
                         placeholder="blur"
                         className="py-10"
                     />
@@ -182,7 +171,6 @@ export default function Artsense() {
                                 <Image
                                     src={presentationHome}
                                     alt="Art Sense App - Home"
-                                    layout="fit"
                                     placeholder="blur"
                                     className="rounded-3xl border-4 border-white drop-shadow-lg"
                                 /></div>
@@ -191,7 +179,6 @@ export default function Artsense() {
                                 <Image
                                     src={presentationEvent}
                                     alt="Art Sense App - Event Page"
-                                    layout="fit"
                                     placeholder="blur"
                                     className="rounded-3xl border-4 border-white drop-shadow-lg"
                                 />

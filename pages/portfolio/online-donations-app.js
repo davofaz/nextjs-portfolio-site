@@ -39,7 +39,6 @@ export default function OnlineDonations() {
                                 <Image
                                         src={before}
                                         alt="Online Donation Page - original Design"
-                                        className="object-fill"
                                         placeholder="blur"
                                  />
                             </div>
@@ -66,7 +65,6 @@ export default function OnlineDonations() {
                                 <Image
                                     src={versiontwo}
                                     alt="Online Donation Page - 2019 update"
-                                    className="object-fill"
                                     placeholder="blur"
                                 />
                             </div>
@@ -81,7 +79,7 @@ export default function OnlineDonations() {
                                                 src={palette}
                                                 alt="Colour Palette"
                                                 placeholder="blur"
-                                                className="py-10 object-fill"
+                                                className="py-10"
                                             />Applied the 60-30-10 color rule to emphasize visual hierarchy and create a more accessible design with high contrast colors.</li>
                                             <li className="py-2">Introduced a subtle 'sticky' navigation/progress bar showing 'Home, Confirm, Receipt' to indicate the user's progress.</li>
                                             <li className="py-2">Highlighted and increased the visual weight of the Gift Aid section, as it significantly benefits the organization.</li>
@@ -90,7 +88,7 @@ export default function OnlineDonations() {
                                                 src={detail1}
                                                 alt="Detail 1: Enhanced the clarity of amount input fields."
                                                 placeholder="blur"
-                                                className="py-10 object-fill"
+                                                className="py-10"
                                             /></li>
                                             <li className="py-2">Used uniform negative space to create visual harmony and clarity, with Figma auto layout padding of 30px, 20px, 40px, and 20px in all sections.</li>
                                             <li className="py-2">Increased the contrast between headings and regular text.</li>
@@ -98,14 +96,14 @@ export default function OnlineDonations() {
                                                 src={detail2}
                                                 alt="Detail 2: Improved the cleanliness of input fields."
                                                 placeholder="blur"
-                                                className="py-10 object-fill"
+                                                className="py-10"
                                             /></li>
                                             <li className="py-2">Applied Gestalt principles of common region, similarity, and proximity to clearly define each section and function.</li>
                                             <li><Image
                                                 src={detail3}
                                                 alt="Detail 3: Enhanced the design of radio buttons."
                                                 placeholder="blur"
-                                                className="py-10 object-fill"
+                                                className="py-10"
                                             /></li>
                                             <li className="py-2">Utilized a high-contrast CTA button with a shadow to clearly direct users to the next page.</li>
                                             <li className="py-2">Designed the color palette and typeface to be easily adaptable for other purposes or organizations.</li>
@@ -113,7 +111,7 @@ export default function OnlineDonations() {
                                                 src={detail4}
                                                 alt="Detail 4: Implemented the Material Design grid system for uniform structure and balance of elements, aiding responsive design."
                                                 placeholder="blur"
-                                                className="py-10 object-fill"
+                                                className="py-10"
                                             /></li>
                                             <li className="py-2">Implemented the Material Design grid system for uniform structure and balance of elements, aiding responsive design.</li>
 
@@ -129,7 +127,7 @@ export default function OnlineDonations() {
                                     alt="Online Donation Page - 2024/25 High Definition Mockup"
                                     priority="true"
                                     placeholder="blur"
-                                    className="py-10 object-fill"
+                                    className="py-10"
                                 />
  </div>
                            

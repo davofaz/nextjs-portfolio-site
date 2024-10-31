@@ -49,7 +49,8 @@ const RecentWork = ({ additionalClasses = '' }) => {
                             src="/recent-work-artsense-google-showcase-large.jpg"
                             alt="Case Study: Artsense"
                             width={200}
-                            height={200}
+                        height={200}
+                            priority="true"
                           />
                             <h2 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Arts & Culture App</h2>
                 </Link>
