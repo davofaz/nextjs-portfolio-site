@@ -23,7 +23,6 @@ export default function MyTasksApp() {
                         alt="My Tasks App"
                         width={1440}
                         height={1440}
-                        layout="responsive"
                         placeholder="blur"
                     />
                     <div className="text-cyan-950 dark:text-cyan-700 mt-4 p-6 md:p-12 leading-relaxed">

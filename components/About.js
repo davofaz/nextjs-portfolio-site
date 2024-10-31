@@ -1,23 +1,18 @@
 import React from "react"
 import Image from "next/image"
-import profile from "../public/david-fazaldin-profile.jpg"
+import davidPhoto from '../public/david-fazaldin-profile.jpg';
 
 const About = () => {
     
     return (
-        <div className="grid gap-4 md:grid-cols-3 pt-12">
-            <div
-                className="col-span-2 md:col-span-1" 
-                style={{
-                    backgroundSize: "contain",
-                    backgroundRepeat: "no-repeat",
-                    width: "100%",
-                }}
-                >
-                <img
-                    src={profile.src}
-                    alt="Profile"
-                    style={{ width: "100%", height: "auto" }}
+        <div className="grid gap-0 gap-4 grid-cols-1 md:grid-cols-3 pt-12">
+            <div className="col-span-2 md:col-span-1">
+
+                <Image
+                    src={davidPhoto}
+                    alt="David Fazaldin headshot photo"
+                    placeholder="blur"
+                    className="py-10 object-fit"
                 />
                 
             </div>

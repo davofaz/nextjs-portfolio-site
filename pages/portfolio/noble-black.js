@@ -23,7 +23,6 @@ export default function NobleBlack() {
                         alt="My Tasks App"
                         width={1625}
                         height={1787}
-                        layout="responsive"
                         placeholder="blur"
                     />
                 <div className="text-cyan-950 dark:text-cyan-700 mt-4 p-6 md:p-12 leading-relaxed">
@@ -44,7 +43,6 @@ export default function NobleBlack() {
                                 alt="My Tasks App"
                                 width={1625}
                                 height={1787}
-                                layout="responsive"
                                 placeholder="blur"
                             />
                     </div>
