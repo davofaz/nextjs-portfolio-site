@@ -1,14 +1,13 @@
 ﻿import React from "react";
 import Head from 'next/head'
 import Image from 'next/image';
-import Link from 'next/link';
 import FadeIn from '../../components/FadeIn'
 import { fadeInUp } from '../../animations/variants.js'
 import RecentWork from '../../components/RecentWork.js';
 
 import { useState } from 'react';
 
-import thumbnail from '../../public/case-study-colin-dye-training-homepage-redesign-halfsize.jpg';
+import thumbnail from '../../public/case-study-colin-dye-training-homepage-redesign-thumbnail.jpg';
 import fullsizeDesign from '../../public/case-study-colin-dye-training-homepage-redesign-fullsize.jpg';
 
 

@@ -32,7 +32,34 @@ const RecentWork = ({ additionalClasses = '' }) => {
                 className="flex relative shadow-xl"
                 animate={{
                     opacity: 1,
-                    scale:1
+                    scale: 1
+                }}
+                whileHover={{
+                    scale: 0.95,
+                    opacity: 0.8,
+                    transition: { duration: 0.3 }
+                }}
+                whileTap={{
+                    opacity: 1,
+                    filter: 'brightness(120%)',
+                    scale: 1.1
+                }}>
+                <Link href="/portfolio/cd-training-website-before-after">
+                    <Image
+                        src="/recent-work-colin-dye-training.jpg"
+                        alt="Case Study: Artsense"
+                        width={200}
+                        height={200}
+                        priority="true"
+                    />
+                    <h2 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Homepage Redesign</h2>
+                </Link>
+            </motion.div>
+            <motion.div
+                className="flex relative shadow-xl"
+                animate={{
+                    opacity: 1,
+                    scale: 1
                 }}
                 whileHover={{
                     scale: 0.95,
@@ -45,14 +72,14 @@ const RecentWork = ({ additionalClasses = '' }) => {
                     scale: 1.1
                 }}>
                 <Link href="/portfolio/artsense">
-                         <Image
-                            src="/recent-work-artsense-google-showcase-large.jpg"
-                            alt="Case Study: Artsense"
-                            width={200}
+                    <Image
+                        src="/recent-work-artsense-google-showcase-large.jpg"
+                        alt="Case Study: Artsense"
+                        width={200}
                         height={200}
-                            priority="true"
-                          />
-                            <h2 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Arts & Culture App</h2>
+                        priority="true"
+                    />
+                    <h2 className="absolute z-10 text-white right-2 bottom-2 bg-black rounded-lg px-2 lg:px-4 py-1 text-xs">Arts & Culture App</h2>
                 </Link>
             </motion.div>
             <motion.div
